@@ -1,0 +1,38 @@
+version: "3.8"
+services:
+  backend:
+    container_name: EventBooking_Api
+    build: .
+    environment:
+      - NODE_ENV=development
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    depends_on:
+      - postgres
+    
+  
+  postgres:
+    container_name: postgres
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data 
+  
+  test:
+    container_name: integration-test
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: tests
+    ports:
+      - "5433:5432"
+
+volumes:
+  db-data:
