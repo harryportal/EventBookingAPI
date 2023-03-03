@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon source/index.ts"
+    "dev": "nodemon source/index.ts",
+    "migrate": "dotenv -e .env.development -- npx prisma migrate dev --name init"
   },
   "keywords": [],
   "author": "",

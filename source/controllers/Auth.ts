@@ -8,7 +8,7 @@ import { AuthRequest } from '../utils/interface';
 
 export default class AuthController {
   static signUp = async (req: Request, res: Response) => {
-    let { username, email, password } = req.body;
+    let { firstname, lastname, email, password } = req.body;
     let user = await prisma.user.findUnique({  // check if user with email already exist
       where: { email: req.body.email },
     });
@@ -17,12 +17,13 @@ export default class AuthController {
     }
     user = await prisma.user.create({
       data: {
-        username,
+        firstname,
+        lastname,
         email,
         password: await hashPassword(password),
       },
     });
-    const User = { username: user.username, email: user.email, id: user.id };
+    const User = { firstname, lastname, email, id: user.id };
     const token = createJWT(user);
     res.json({ User, token });
   };
