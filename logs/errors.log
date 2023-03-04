@@ -1,0 +1,8 @@
+2023-03-04 15:26:11 [31merror[39m: [31mError Connecting to Database [1;91merror[0m: [1mEnvironment variable not found: DATABASE_URL.[0m[39m
+[31m  [1;94m-->[0m  [4mschema.prisma:10[0m[39m
+[31m[1;94m   | [0m[39m
+[31m[1;94m 9 | [0m  provider = "postgresql"[39m
+[31m[1;94m10 | [0m  url      = [1;91menv("DATABASE_URL")[0m[39m
+[31m[1;94m   | [0m[39m
+
+[31mValidation Error Count: 1[39m

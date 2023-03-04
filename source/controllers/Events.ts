@@ -7,10 +7,10 @@ import { prisma } from "../utils/db";
 export default class EventController {
 
     static createEvent = async (req:AuthRequest,  res:Response) => {
-        const {name, description, date, startTime, endTime, capacity, location} = req.body;
+        const {name, description, date, startTime, endTime, capacity, location, totalCapacity} = req.body;
         const event = await prisma.event.create({
             data: {
-                name, description, date, startTime, endTime, capacity, location, 
+                name, description, date, startTime, endTime, capacity, location, totalCapacity,
                 creator: {
                     connect: {id: req.user.id}
                 }
@@ -29,7 +29,11 @@ export default class EventController {
             where:{ id: eventId }  })
            
 
-        if(!event) { return res.status(400).json({success:false, message: "No event with Id provided"})}
+        if(!event) { return res.status(400).json({success:false, message: "No event with Id provided"}) }
+        
+        // Check if event is at capacity before adding the new attendee
+
+        if(event.capacity == event.totalCapacity){ return res.status(400).json({success:false, message:"Event at Capacity"} )}
 
         const attendee = await prisma.attendee.create({
             data:{
@@ -39,21 +43,24 @@ export default class EventController {
             include: {event: true} // returns the attendee and the event details to the front end
         })
 
-        // work on a logic to check the capacity of the event before adding a new attendee
+        // work on a logic to check the capacity of the event before adding a new attendee -- done
 
         res.json({success:true, data: attendee});
     }
 
-    static getAttendees =async (req:Request,  res:Response) => {
+    static getAttendees =async (req:AuthRequest,  res:Response) => {
         const eventId = req.params.id;
-        const eventAttendees = await prisma.event.findUnique({
-            where:{
-                id: eventId
+        const userId = req.user.id;
+
+        const eventAttendees = await prisma.event.findFirst({
+            where:{ 
+                id: eventId,
+                creatorId: userId
             },
             include: {attendees: true}
         });
 
-        if(!event) { return res.status(400).json({success:false, message: "No event with Id provided"})};
+        if(!eventAttendees) { return res.status(400).json({success:false, message: "No event with Id provided"}) };
 
         res.json({success:true, data: eventAttendees})
     }

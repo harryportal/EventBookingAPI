@@ -28,6 +28,7 @@ model Event {
   date        DateTime
   startTime   DateTime
   endTime     DateTime
+  totalCapacity Int
   capacity    Int
   location    String
   creatorId   String
