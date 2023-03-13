@@ -1,13 +1,16 @@
 import {Request, Response} from "express";
-import { AuthRequest } from "../utils/interface";
+import { AuthRequest } from "../interfaces/userAuth";
 import { prisma } from "../utils/db";
+import { BadRequestError } from "../middleware/error";
+import MailService from "../service/mailing";
+import logger from "../utils/winston";
 
 
 export default class EventController {
 
     static createEvent = async (req:AuthRequest,  res:Response) => {
         const {name, description, date, startTime, endTime,  location, totalCapacity} = req.body;
-        
+
         const event = await prisma.event.create({
             data: {
                 name, description, date, startTime, endTime, location, totalCapacity,
@@ -16,12 +19,17 @@ export default class EventController {
                 }
             }
         })
-
-        res.json({sucess:true, data:event});
+        // Work on templates later
+        const mailing =  new MailService();
+        try{
+        mailing.sendMail(req.headers['X-Request-Id'], {to:req.user.email, subject: "Event Created", html:"Email Sent"})
+        res.json({sucess:true, data:event});}
+        catch(err){
+            logger.error(err) }
         };
 
 
-    static attendAttendee =async (req:Request,  res:Response) => {
+    static addAttendee = async (req:Request,  res:Response) => {
         const {email, firstname, lastname, contact, address} = req.body;
         const eventId = req.params.id;
 
@@ -30,11 +38,11 @@ export default class EventController {
             where:{ id: eventId }  })
            
 
-        if(!event) { return res.status(400).json({success:false, message: "No event with Id provided"}) }
+        if(!event) { throw new BadRequestError("No event with Id!") }
         
         // Check if event is at capacity before adding the new attendee
 
-        if(event.capacity == event.totalCapacity){ return res.status(400).json({success:false, message:"Event at Capacity"} )}
+        if(event.capacity == event.totalCapacity){ throw new BadRequestError("Event at Capacity") }
         
         const addAttendee = await prisma.$transaction([
             prisma.attendee.create({
@@ -72,7 +80,7 @@ export default class EventController {
             include: {attendees: true}
         });
 
-        if(!eventAttendees) { return res.status(400).json({success:false, message: "No event with Id provided"}) };
+        if(!eventAttendees) { throw new BadRequestError("No event with Id!") };
 
         res.json({success:true, data: eventAttendees})
     }

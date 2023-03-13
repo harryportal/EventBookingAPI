@@ -1,6 +1,6 @@
 import { ApiError, BadRequestError } from '../middleware/error';
 import axios, { AxiosRequestConfig } from 'axios';
-import { FlutterwaveVerificationResponse, OrderEntity, User } from '../utils/interface';
+import { FlutterwaveVerificationResponse, OrderEntity, User } from '../interfaces/googleAuth';
 
 class FlutterWaveResponse {
   constructor(public status: string, public message: string, public checkoutLink: string) {}

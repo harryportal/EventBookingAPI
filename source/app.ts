@@ -2,8 +2,7 @@ import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
 import { ErrorHandler } from './middleware/error';
-import { Application } from 'express';
-
+import { Application, Request, Response } from 'express';
 
 const app: Application = express();
 

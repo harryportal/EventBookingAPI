@@ -1,6 +1,6 @@
 import axios from "axios";
 import qs from "qs";
-import { GoogleUserResult, GoogleOauthToken } from "../utils/interface";
+import { GoogleUserResult, GoogleOauthToken } from "../interfaces/googleAuth";
 import logger from "../utils/winston";
 import * as dotenv from "dotenv";
 

@@ -9,3 +9,135 @@
 [31m[1;94m   | [0m[39m
 
 [31mValidation Error Count: 1[39m
+2023-03-09 16:23:32 [32minfo[39m: [32mListening on url http://localhost:8000[39m
+2023-03-09 16:23:32 [31merror[39m: [31mError Connecting to Database [1;91merror[0m: [1mEnvironment variable not found: DATABASE_URL.[0m[39m
+[31m  [1;94m-->[0m  [4mschema.prisma:10[0m[39m
+[31m[1;94m   | [0m[39m
+[31m[1;94m 9 | [0m  provider = "postgresql"[39m
+[31m[1;94m10 | [0m  url      = [1;91menv("DATABASE_URL")[0m[39m
+[31m[1;94m   | [0m[39m
+
+[31mValidation Error Count: 1[39m
+2023-03-09 16:26:31 [32minfo[39m: [32mListening on url http://localhost:8000[39m
+2023-03-09 16:26:31 [31merror[39m: [31mError Connecting to Database [1;91merror[0m: [1mEnvironment variable not found: DATABASE_URL.[0m[39m
+[31m  [1;94m-->[0m  [4mschema.prisma:10[0m[39m
+[31m[1;94m   | [0m[39m
+[31m[1;94m 9 | [0m  provider = "postgresql"[39m
+[31m[1;94m10 | [0m  url      = [1;91menv("DATABASE_URL")[0m[39m
+[31m[1;94m   | [0m[39m
+
+[31mValidation Error Count: 1[39m
+2023-03-09 16:31:56 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-09 16:31:56 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-09 16:32:21 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-09 16:32:22 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-09 16:48:08 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-09 16:48:08 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-09 16:49:02 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-09 16:49:02 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-09 16:49:10 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-09 16:49:10 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-09 16:50:07 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-09 16:50:07 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-09 16:52:41 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-09 16:52:41 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-09 16:54:00 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-09 16:54:01 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-09 16:56:20 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-09 16:56:20 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-09 17:02:11 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-09 17:02:11 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 03:42:34 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 03:42:34 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 03:45:42 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 03:45:42 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 03:49:56 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 03:49:56 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 03:52:21 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 03:52:21 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 03:53:03 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 03:53:03 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 03:54:15 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 03:54:15 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 03:55:37 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 03:55:37 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 03:57:03 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 03:57:03 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 03:58:15 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 03:58:15 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:01:20 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:01:20 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:06:19 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:06:19 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:08:24 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:08:24 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:09:44 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:09:44 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:11:40 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:11:40 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:12:38 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:12:38 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:22:19 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:22:19 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:23:19 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:23:19 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:24:17 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:24:17 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:24:24 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:24:24 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:25:14 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:25:14 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:26:00 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:26:01 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:26:41 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:26:41 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:27:13 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:27:13 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:29:15 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:29:15 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:31:17 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:31:17 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:31:59 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:31:59 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:32:26 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:32:26 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:34:18 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:34:18 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:35:29 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:35:29 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-12 04:36:02 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-12 04:36:02 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-13 22:07:21 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 22:07:21 [31merror[39m: [31mError Connecting to Database Authentication failed against database server at `localhost`, the provided database credentials for `postgres` are not valid.[39m
+
+[31mPlease make sure to provide valid database credentials for the database server at `localhost`.[39m
+2023-03-13 22:09:09 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 22:09:09 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-13 22:20:32 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 22:20:32 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-13 22:26:34 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 22:26:34 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-13 22:31:38 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 22:31:38 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-13 22:48:21 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 22:48:21 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-13 22:50:00 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 22:50:00 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-13 22:50:21 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 22:50:21 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-13 22:53:29 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 22:53:29 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-13 22:56:26 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 22:56:26 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-13 22:56:42 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 22:56:42 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-13 22:56:51 [32minfo[39m: [32mundefined - Mail sent successfully!![39m
+2023-03-13 22:56:51 [32minfo[39m: [32mundefined - [MailResponse]=250 2.0.0 OK  1678744637 y8-20020a05600c364800b003ed2384566fsm900365wmq.21 - gsmtp [MessageID]=<acafd064-6ad6-1686-1c1f-eecfb3d60f07@gmail.com>[39m
+2023-03-13 22:59:06 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 22:59:07 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-13 22:59:29 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 22:59:29 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-13 22:59:48 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 22:59:48 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-13 23:00:14 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-13 23:00:14 [32minfo[39m: [32mConnected to Database Successsfully[39m
