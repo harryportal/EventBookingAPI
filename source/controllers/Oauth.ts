@@ -31,7 +31,7 @@ export default class GoogleOauthController {
       
           const { id_token, access_token } = await googleService.getToken({code});
       
-          const { name, verified_email, email}  = await googleService.getUser({
+          const { name, verified_email, email, given_name, family_name}  = await googleService.getUser({
             id_token,
             access_token,
           });
@@ -47,12 +47,13 @@ export default class GoogleOauthController {
           const user = await prisma.user.upsert({
             where: { email },
             create: {
-              username:name,
+              firstname: given_name,
+              lastname: family_name,
               email,
               password: "",
 
             },
-            update: {username:name, email},
+            update: {firstname: given_name, lastname: family_name, email},
           });
       
           if (!user) return res.redirect(`${FRONTEND_ORIGIN}/oauth/error`);

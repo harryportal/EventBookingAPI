@@ -81,7 +81,7 @@ export default class GoogleService{
       
           return data;
         } catch (err: any) {
-          console.log(err);
+          console.log(err); // check this later
           throw Error(err);
         }
       }
