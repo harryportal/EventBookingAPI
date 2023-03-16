@@ -150,3 +150,123 @@
 [31m    at IncomingMessage.emit (node:domain:489:12)[39m
 [31m    at endReadableNT (node:internal/streams/readable:1359:12)[39m
 [31m    at processTicksAndRejections (node:internal/process/task_queues:82:21)[39m
+2023-03-16 01:34:06 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:31:23)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:4:12)[39m
+[31m    at Cloudinary.uploadImage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:24:16)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:93:55[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:8:71[39m
+2023-03-16 01:34:06 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:31:23)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:4:12)[39m
+[31m    at Cloudinary.uploadImage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:24:16)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:93:55[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:8:71[39m
+2023-03-16 01:49:33 [31merror[39m: [31munhandledRejection: Internal Server Error[39m
+[31mError: Internal Server Error[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:32:19)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:4:12)[39m
+[31m    at Cloudinary.uploadImage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:24:16)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:93:55[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+2023-03-16 01:49:33 [31merror[39m: [31munhandledRejection: Internal Server Error[39m
+[31mError: Internal Server Error[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:32:19)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:4:12)[39m
+[31m    at Cloudinary.uploadImage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:24:16)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:93:55[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+2023-03-16 01:50:23 [31merror[39m: [31munhandledRejection: Internal Server Error[39m
+[31mError: Internal Server Error[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:32:19)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:4:12)[39m
+[31m    at Cloudinary.uploadImage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:24:16)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:93:55[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+2023-03-16 01:50:23 [31merror[39m: [31munhandledRejection: Internal Server Error[39m
+[31mError: Internal Server Error[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:32:19)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:4:12)[39m
+[31m    at Cloudinary.uploadImage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:24:16)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:93:55[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+2023-03-16 01:56:14 [31merror[39m: [31munhandledRejection: Internal Server Error[39m
+[31mError: Internal Server Error[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:32:19)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:4:12)[39m
+[31m    at Cloudinary.uploadImage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:24:16)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:93:55[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+2023-03-16 01:56:14 [31merror[39m: [31munhandledRejection: Internal Server Error[39m
+[31mError: Internal Server Error[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:32:19)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:4:12)[39m
+[31m    at Cloudinary.uploadImage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:24:16)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:93:55[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+2023-03-16 01:57:38 [31merror[39m: [31munhandledRejection: Internal Server Error[39m
+[31mError: Internal Server Error[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:33:19)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:4:12)[39m
+[31m    at Cloudinary.uploadImage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:24:16)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:93:55[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+2023-03-16 01:57:38 [31merror[39m: [31munhandledRejection: Internal Server Error[39m
+[31mError: Internal Server Error[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:33:19)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at __awaiter (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:4:12)[39m
+[31m    at Cloudinary.uploadImage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:24:16)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:93:55[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:8:71[39m
+[31m    at new Promise (<anonymous>)[39m

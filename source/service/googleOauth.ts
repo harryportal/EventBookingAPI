@@ -7,7 +7,7 @@ import * as dotenv from "dotenv";
 dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
 
 
-export default class GoogleService{
+class GoogleService{
     public client_id: string
     public redirect_url: string
     public client_secret: string
@@ -87,3 +87,6 @@ export default class GoogleService{
       }
 
 }
+
+const googleService = new GoogleService();
+export default googleService;

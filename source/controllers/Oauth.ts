@@ -1,10 +1,8 @@
 import { Request, Response } from "express";
-import GoogleService from "../service/googleOauth";
+import googleService from "../service/googleOauth";
 import { createJWT } from "../utils/auth";
 import {prisma } from "../utils/db";
 
-
-const googleService = new GoogleService();
 
 export default class GoogleOauthController {
     static getAuthorizationCode = async (req: Request, res: Response)=>{

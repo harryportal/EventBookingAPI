@@ -25,3 +25,18 @@
 2023-03-13 22:07:21 [31merror[39m: [31mError Connecting to Database Authentication failed against database server at `localhost`, the provided database credentials for `postgres` are not valid.[39m
 
 [31mPlease make sure to provide valid database credentials for the database server at `localhost`.[39m
+2023-03-16 01:01:25 [31merror[39m: [31mError Connecting to Database Authentication failed against database server at `localhost`, the provided database credentials for `postgres` are not valid.[39m
+
+[31mPlease make sure to provide valid database credentials for the database server at `localhost`.[39m
+2023-03-16 01:26:18 [31merror[39m: [31mError Connecting to Database Authentication failed against database server at `localhost`, the provided database credentials for `postgres` are not valid.[39m
+
+[31mPlease make sure to provide valid database credentials for the database server at `localhost`.[39m
+2023-03-16 01:27:30 [31merror[39m: [31mError Connecting to Database Authentication failed against database server at `localhost`, the provided database credentials for `postgres` are not valid.[39m
+
+[31mPlease make sure to provide valid database credentials for the database server at `localhost`.[39m
+2023-03-16 01:27:47 [31merror[39m: [31mError Connecting to Database Authentication failed against database server at `localhost`, the provided database credentials for `postgres` are not valid.[39m
+
+[31mPlease make sure to provide valid database credentials for the database server at `localhost`.[39m
+2023-03-16 01:29:30 [31merror[39m: [31mError Connecting to Database Authentication failed against database server at `localhost`, the provided database credentials for `postgres` are not valid.[39m
+
+[31mPlease make sure to provide valid database credentials for the database server at `localhost`.[39m

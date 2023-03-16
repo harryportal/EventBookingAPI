@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from 'express';
 
 class ApiError extends Error {
-  constructor(message: string, public statusCode: number, public rawErrors?: string[]) {
+  constructor(message: string, public statusCode: number, public rawErrors?: string[] | unknown) {
     super(message);
     Error.captureStackTrace(this, this.constructor); // captures errors from every part of the application
   }
@@ -63,4 +63,9 @@ class BadRequestError extends ApiError {
   }
 }
 
-export { ErrorHandler, NotFoundError, ApiError, AuthError, BadRequestError };
+class InternalServerError extends ApiError{
+  constructor(public errors?: unknown) {
+    super("Internal Server Error", 500, errors);
+  }
+}
+export { ErrorHandler, NotFoundError, ApiError, AuthError, BadRequestError, InternalServerError };
