@@ -5,7 +5,7 @@ import { BadRequestError } from "../middleware/error";
 import MailService from "../service/mailing";
 import logger from "../utils/winston";
 import cloudinaryInstance from "../service/cloudinary";
-import { multerUpload } from "../utils/multer";
+
 
 
 export default class EventController {
@@ -13,13 +13,16 @@ export default class EventController {
     static createEvent = async (req:AuthRequest,  res:Response) => {
         const {name, description, date, startTime, endTime,  location, totalCapacity} = req.body;
 
+        const localFilePath = req.file?.path || "";
+        const { imageUrl } = await cloudinaryInstance.uploadImage(localFilePath);
+
         const event = await prisma.event.create({
             data: {
-                name, description, date, startTime, endTime, location, totalCapacity,
+                name, description, date, startTime, endTime, location, totalCapacity, imageUrl,
                 creator: {
                     connect: {id: req.user.id}
                 }
-            }
+            }   
         })
         // Work on templates later
         const mailing =  new MailService();
@@ -86,14 +89,6 @@ export default class EventController {
 
         res.json({success:true, data: eventAttendees})
     }
-
-    static addImage = async (req:AuthRequest,  res:Response) => {
-        const localFilePath = req.file?.path || "";
-      
-        const { imageUrl } = await cloudinaryInstance.uploadImage(localFilePath);
-      
-        res.status(200).json({ data: imageUrl });
-      };
 }
 
 

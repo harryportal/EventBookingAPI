@@ -25,6 +25,7 @@ model Event {
   id          String     @id @default(uuid())
   name        String
   description String     @db.VarChar(255)
+  imageUrl    String?
   date        DateTime
   startTime   DateTime
   endTime     DateTime
