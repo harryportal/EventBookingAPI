@@ -1,4 +1,4 @@
-import { IsNumber, IsString, IsDateString, Matches, IsOptional } from 'class-validator';
+import { IsNumber, IsString, IsDateString, Matches, IsOptional, IsNumberString } from 'class-validator';
 
 
 export class AddEvent {
@@ -20,12 +20,14 @@ export class AddEvent {
     message: 'Invalid time format. Use the format HH:mm',
   })
   endTime: string
-
+ 
+  @IsOptional()
   @IsString()
   location: string
 
-  @IsNumber()
-  totalCapacity: number
+  @IsNumberString()
+  totalCapacity: string
+  
 }
 
 export class AddAttendee{

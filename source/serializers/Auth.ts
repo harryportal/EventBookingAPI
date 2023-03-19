@@ -10,5 +10,8 @@ export class SignIn {
 
 export class SignUp extends SignIn {
   @IsDefined()
-  username: string;
+  firstname: string;
+
+  @IsDefined()
+  lastname:string;
 }

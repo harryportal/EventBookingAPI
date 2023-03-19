@@ -530,3 +530,1195 @@
 [31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
 [31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
 [31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-19 14:43:50 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 14:43:50 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 14:57:15 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 14:57:15 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 14:57:57 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 14:57:57 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 14:58:22 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 14:58:22 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 15:26:03 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 15:26:03 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 15:27:30 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 15:27:30 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 15:28:16 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 15:28:16 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 15:29:25 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 15:29:25 [31merror[39m: [31munhandledRejection: ENOENT: no such file or directory, unlink[39m
+[31mError: ENOENT: no such file or directory, unlink[39m
+[31m    at unlinkSync (node:fs:1780:3)[39m
+[31m    at Cloudinary.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:37:23)[39m
+[31m    at Generator.throw (<anonymous>)[39m
+[31m    at rejected (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\service\cloudinary.ts:29:65)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2023-03-19 15:58:53 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:24:42[39m
+
+[31m  21 [39m
+[31m  22 if (imageUrl) imagelink = imageUrl;[39m
+[31m  23 [39m
+[31m→ 24 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m     +   description: String,[39m
+[31m     +   date: DateTime,[39m
+[31m     +   startTime: DateTime,[39m
+[31m     +   endTime: DateTime,[39m
+[31m     +   location: String,[39m
+[31m     +   totalCapacity: Int,[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         },[39m
+[31m     ?   id?: String,[39m
+[31m     ?   capacity?: Int,[39m
+[31m     ?   attendees?: {[39m
+[31m     ?     create?: AttendeeToEventCreateWithoutEventInput | AttendeeToEventCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput,[39m
+[31m     ?     connectOrCreate?: AttendeeToEventCreateOrConnectWithoutEventInput | AttendeeToEventCreateOrConnectWithoutEventInput,[39m
+[31m     ?     createMany?: AttendeeToEventCreateManyEventInputEnvelope,[39m
+[31m     ?     connect?: AttendeeToEventWhereUniqueInput | AttendeeToEventWhereUniqueInput[39m
+[31m     ?   }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument description for data.description is missing.[39m
+[31mArgument date for data.date is missing.[39m
+[31mArgument startTime for data.startTime is missing.[39m
+[31mArgument endTime for data.endTime is missing.[39m
+[31mArgument totalCapacity for data.totalCapacity is missing.[39m
+[31mArgument location for data.location is missing.[39m
+
+[31mNote: Lines with + are required, lines with ? are optional.[39m
+
+[31mError: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:24:42[39m
+
+[31m  21 [39m
+[31m  22 if (imageUrl) imagelink = imageUrl;[39m
+[31m  23 [39m
+[31m→ 24 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m     +   description: String,[39m
+[31m     +   date: DateTime,[39m
+[31m     +   startTime: DateTime,[39m
+[31m     +   endTime: DateTime,[39m
+[31m     +   location: String,[39m
+[31m     +   totalCapacity: Int,[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         },[39m
+[31m     ?   id?: String,[39m
+[31m     ?   capacity?: Int,[39m
+[31m     ?   attendees?: {[39m
+[31m     ?     create?: AttendeeToEventCreateWithoutEventInput | AttendeeToEventCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput,[39m
+[31m     ?     connectOrCreate?: AttendeeToEventCreateOrConnectWithoutEventInput | AttendeeToEventCreateOrConnectWithoutEventInput,[39m
+[31m     ?     createMany?: AttendeeToEventCreateManyEventInputEnvelope,[39m
+[31m     ?     connect?: AttendeeToEventWhereUniqueInput | AttendeeToEventWhereUniqueInput[39m
+[31m     ?   }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument description for data.description is missing.[39m
+[31mArgument date for data.date is missing.[39m
+[31mArgument startTime for data.startTime is missing.[39m
+[31mArgument endTime for data.endTime is missing.[39m
+[31mArgument totalCapacity for data.totalCapacity is missing.[39m
+[31mArgument location for data.location is missing.[39m
+
+[31mNote: Lines with + are required, lines with ? are optional.[39m
+
+[31m    at ti.validate (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:149:91)[39m
+[31m    at Wr.createMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:164:13655)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
+[31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
+[31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m
+[31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m
+2023-03-19 15:58:53 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:24:42[39m
+
+[31m  21 [39m
+[31m  22 if (imageUrl) imagelink = imageUrl;[39m
+[31m  23 [39m
+[31m→ 24 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m     +   description: String,[39m
+[31m     +   date: DateTime,[39m
+[31m     +   startTime: DateTime,[39m
+[31m     +   endTime: DateTime,[39m
+[31m     +   location: String,[39m
+[31m     +   totalCapacity: Int,[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         },[39m
+[31m     ?   id?: String,[39m
+[31m     ?   capacity?: Int,[39m
+[31m     ?   attendees?: {[39m
+[31m     ?     create?: AttendeeToEventCreateWithoutEventInput | AttendeeToEventCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput,[39m
+[31m     ?     connectOrCreate?: AttendeeToEventCreateOrConnectWithoutEventInput | AttendeeToEventCreateOrConnectWithoutEventInput,[39m
+[31m     ?     createMany?: AttendeeToEventCreateManyEventInputEnvelope,[39m
+[31m     ?     connect?: AttendeeToEventWhereUniqueInput | AttendeeToEventWhereUniqueInput[39m
+[31m     ?   }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument description for data.description is missing.[39m
+[31mArgument date for data.date is missing.[39m
+[31mArgument startTime for data.startTime is missing.[39m
+[31mArgument endTime for data.endTime is missing.[39m
+[31mArgument totalCapacity for data.totalCapacity is missing.[39m
+[31mArgument location for data.location is missing.[39m
+
+[31mNote: Lines with + are required, lines with ? are optional.[39m
+
+[31mError: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:24:42[39m
+
+[31m  21 [39m
+[31m  22 if (imageUrl) imagelink = imageUrl;[39m
+[31m  23 [39m
+[31m→ 24 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m     +   description: String,[39m
+[31m     +   date: DateTime,[39m
+[31m     +   startTime: DateTime,[39m
+[31m     +   endTime: DateTime,[39m
+[31m     +   location: String,[39m
+[31m     +   totalCapacity: Int,[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         },[39m
+[31m     ?   id?: String,[39m
+[31m     ?   capacity?: Int,[39m
+[31m     ?   attendees?: {[39m
+[31m     ?     create?: AttendeeToEventCreateWithoutEventInput | AttendeeToEventCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput,[39m
+[31m     ?     connectOrCreate?: AttendeeToEventCreateOrConnectWithoutEventInput | AttendeeToEventCreateOrConnectWithoutEventInput,[39m
+[31m     ?     createMany?: AttendeeToEventCreateManyEventInputEnvelope,[39m
+[31m     ?     connect?: AttendeeToEventWhereUniqueInput | AttendeeToEventWhereUniqueInput[39m
+[31m     ?   }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument description for data.description is missing.[39m
+[31mArgument date for data.date is missing.[39m
+[31mArgument startTime for data.startTime is missing.[39m
+[31mArgument endTime for data.endTime is missing.[39m
+[31mArgument totalCapacity for data.totalCapacity is missing.[39m
+[31mArgument location for data.location is missing.[39m
+
+[31mNote: Lines with + are required, lines with ? are optional.[39m
+
+[31m    at ti.validate (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:149:91)[39m
+[31m    at Wr.createMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:164:13655)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
+[31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
+[31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m
+[31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m
+2023-03-19 16:00:39 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:26:42[39m
+
+[31m  23 [39m
+[31m  24 if (imageUrl) imagelink = imageUrl;[39m
+[31m  25 [39m
+[31m→ 26 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m     +   description: String,[39m
+[31m     +   date: DateTime,[39m
+[31m     +   startTime: DateTime,[39m
+[31m     +   endTime: DateTime,[39m
+[31m     +   location: String,[39m
+[31m     +   totalCapacity: Int,[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         },[39m
+[31m     ?   id?: String,[39m
+[31m     ?   capacity?: Int,[39m
+[31m     ?   attendees?: {[39m
+[31m     ?     create?: AttendeeToEventCreateWithoutEventInput | AttendeeToEventCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput,[39m
+[31m     ?     connectOrCreate?: AttendeeToEventCreateOrConnectWithoutEventInput | AttendeeToEventCreateOrConnectWithoutEventInput,[39m
+[31m     ?     createMany?: AttendeeToEventCreateManyEventInputEnvelope,[39m
+[31m     ?     connect?: AttendeeToEventWhereUniqueInput | AttendeeToEventWhereUniqueInput[39m
+[31m     ?   }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument description for data.description is missing.[39m
+[31mArgument date for data.date is missing.[39m
+[31mArgument startTime for data.startTime is missing.[39m
+[31mArgument endTime for data.endTime is missing.[39m
+[31mArgument totalCapacity for data.totalCapacity is missing.[39m
+[31mArgument location for data.location is missing.[39m
+
+[31mNote: Lines with + are required, lines with ? are optional.[39m
+
+[31mError: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:26:42[39m
+
+[31m  23 [39m
+[31m  24 if (imageUrl) imagelink = imageUrl;[39m
+[31m  25 [39m
+[31m→ 26 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m     +   description: String,[39m
+[31m     +   date: DateTime,[39m
+[31m     +   startTime: DateTime,[39m
+[31m     +   endTime: DateTime,[39m
+[31m     +   location: String,[39m
+[31m     +   totalCapacity: Int,[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         },[39m
+[31m     ?   id?: String,[39m
+[31m     ?   capacity?: Int,[39m
+[31m     ?   attendees?: {[39m
+[31m     ?     create?: AttendeeToEventCreateWithoutEventInput | AttendeeToEventCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput,[39m
+[31m     ?     connectOrCreate?: AttendeeToEventCreateOrConnectWithoutEventInput | AttendeeToEventCreateOrConnectWithoutEventInput,[39m
+[31m     ?     createMany?: AttendeeToEventCreateManyEventInputEnvelope,[39m
+[31m     ?     connect?: AttendeeToEventWhereUniqueInput | AttendeeToEventWhereUniqueInput[39m
+[31m     ?   }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument description for data.description is missing.[39m
+[31mArgument date for data.date is missing.[39m
+[31mArgument startTime for data.startTime is missing.[39m
+[31mArgument endTime for data.endTime is missing.[39m
+[31mArgument totalCapacity for data.totalCapacity is missing.[39m
+[31mArgument location for data.location is missing.[39m
+
+[31mNote: Lines with + are required, lines with ? are optional.[39m
+
+[31m    at ti.validate (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:149:91)[39m
+[31m    at Wr.createMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:164:13655)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
+[31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
+[31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m
+[31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m
+2023-03-19 16:00:39 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:26:42[39m
+
+[31m  23 [39m
+[31m  24 if (imageUrl) imagelink = imageUrl;[39m
+[31m  25 [39m
+[31m→ 26 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m     +   description: String,[39m
+[31m     +   date: DateTime,[39m
+[31m     +   startTime: DateTime,[39m
+[31m     +   endTime: DateTime,[39m
+[31m     +   location: String,[39m
+[31m     +   totalCapacity: Int,[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         },[39m
+[31m     ?   id?: String,[39m
+[31m     ?   capacity?: Int,[39m
+[31m     ?   attendees?: {[39m
+[31m     ?     create?: AttendeeToEventCreateWithoutEventInput | AttendeeToEventCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput,[39m
+[31m     ?     connectOrCreate?: AttendeeToEventCreateOrConnectWithoutEventInput | AttendeeToEventCreateOrConnectWithoutEventInput,[39m
+[31m     ?     createMany?: AttendeeToEventCreateManyEventInputEnvelope,[39m
+[31m     ?     connect?: AttendeeToEventWhereUniqueInput | AttendeeToEventWhereUniqueInput[39m
+[31m     ?   }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument description for data.description is missing.[39m
+[31mArgument date for data.date is missing.[39m
+[31mArgument startTime for data.startTime is missing.[39m
+[31mArgument endTime for data.endTime is missing.[39m
+[31mArgument totalCapacity for data.totalCapacity is missing.[39m
+[31mArgument location for data.location is missing.[39m
+
+[31mNote: Lines with + are required, lines with ? are optional.[39m
+
+[31mError: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:26:42[39m
+
+[31m  23 [39m
+[31m  24 if (imageUrl) imagelink = imageUrl;[39m
+[31m  25 [39m
+[31m→ 26 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m     +   description: String,[39m
+[31m     +   date: DateTime,[39m
+[31m     +   startTime: DateTime,[39m
+[31m     +   endTime: DateTime,[39m
+[31m     +   location: String,[39m
+[31m     +   totalCapacity: Int,[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         },[39m
+[31m     ?   id?: String,[39m
+[31m     ?   capacity?: Int,[39m
+[31m     ?   attendees?: {[39m
+[31m     ?     create?: AttendeeToEventCreateWithoutEventInput | AttendeeToEventCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput,[39m
+[31m     ?     connectOrCreate?: AttendeeToEventCreateOrConnectWithoutEventInput | AttendeeToEventCreateOrConnectWithoutEventInput,[39m
+[31m     ?     createMany?: AttendeeToEventCreateManyEventInputEnvelope,[39m
+[31m     ?     connect?: AttendeeToEventWhereUniqueInput | AttendeeToEventWhereUniqueInput[39m
+[31m     ?   }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument description for data.description is missing.[39m
+[31mArgument date for data.date is missing.[39m
+[31mArgument startTime for data.startTime is missing.[39m
+[31mArgument endTime for data.endTime is missing.[39m
+[31mArgument totalCapacity for data.totalCapacity is missing.[39m
+[31mArgument location for data.location is missing.[39m
+
+[31mNote: Lines with + are required, lines with ? are optional.[39m
+
+[31m    at ti.validate (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:149:91)[39m
+[31m    at Wr.createMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:164:13655)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
+[31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
+[31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m
+[31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m
+2023-03-19 16:02:01 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:26:42[39m
+
+[31m  23 [39m
+[31m  24 if (imageUrl) imagelink = imageUrl;[39m
+[31m  25 [39m
+[31m→ 26 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'kuye damilola',[39m
+[31m     +   description: String,[39m
+[31m     +   date: DateTime,[39m
+[31m     +   startTime: DateTime,[39m
+[31m     +   endTime: DateTime,[39m
+[31m     +   location: String,[39m
+[31m     +   totalCapacity: Int,[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         },[39m
+[31m     ?   id?: String,[39m
+[31m     ?   capacity?: Int,[39m
+[31m     ?   attendees?: {[39m
+[31m     ?     create?: AttendeeToEventCreateWithoutEventInput | AttendeeToEventCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput,[39m
+[31m     ?     connectOrCreate?: AttendeeToEventCreateOrConnectWithoutEventInput | AttendeeToEventCreateOrConnectWithoutEventInput,[39m
+[31m     ?     createMany?: AttendeeToEventCreateManyEventInputEnvelope,[39m
+[31m     ?     connect?: AttendeeToEventWhereUniqueInput | AttendeeToEventWhereUniqueInput[39m
+[31m     ?   }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument description for data.description is missing.[39m
+[31mArgument date for data.date is missing.[39m
+[31mArgument startTime for data.startTime is missing.[39m
+[31mArgument endTime for data.endTime is missing.[39m
+[31mArgument totalCapacity for data.totalCapacity is missing.[39m
+[31mArgument location for data.location is missing.[39m
+
+[31mNote: Lines with + are required, lines with ? are optional.[39m
+
+[31mError: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:26:42[39m
+
+[31m  23 [39m
+[31m  24 if (imageUrl) imagelink = imageUrl;[39m
+[31m  25 [39m
+[31m→ 26 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'kuye damilola',[39m
+[31m     +   description: String,[39m
+[31m     +   date: DateTime,[39m
+[31m     +   startTime: DateTime,[39m
+[31m     +   endTime: DateTime,[39m
+[31m     +   location: String,[39m
+[31m     +   totalCapacity: Int,[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         },[39m
+[31m     ?   id?: String,[39m
+[31m     ?   capacity?: Int,[39m
+[31m     ?   attendees?: {[39m
+[31m     ?     create?: AttendeeToEventCreateWithoutEventInput | AttendeeToEventCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput,[39m
+[31m     ?     connectOrCreate?: AttendeeToEventCreateOrConnectWithoutEventInput | AttendeeToEventCreateOrConnectWithoutEventInput,[39m
+[31m     ?     createMany?: AttendeeToEventCreateManyEventInputEnvelope,[39m
+[31m     ?     connect?: AttendeeToEventWhereUniqueInput | AttendeeToEventWhereUniqueInput[39m
+[31m     ?   }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument description for data.description is missing.[39m
+[31mArgument date for data.date is missing.[39m
+[31mArgument startTime for data.startTime is missing.[39m
+[31mArgument endTime for data.endTime is missing.[39m
+[31mArgument totalCapacity for data.totalCapacity is missing.[39m
+[31mArgument location for data.location is missing.[39m
+
+[31mNote: Lines with + are required, lines with ? are optional.[39m
+
+[31m    at ti.validate (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:149:91)[39m
+[31m    at Wr.createMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:164:13655)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
+[31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
+[31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m
+[31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m
+2023-03-19 16:02:01 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:26:42[39m
+
+[31m  23 [39m
+[31m  24 if (imageUrl) imagelink = imageUrl;[39m
+[31m  25 [39m
+[31m→ 26 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'kuye damilola',[39m
+[31m     +   description: String,[39m
+[31m     +   date: DateTime,[39m
+[31m     +   startTime: DateTime,[39m
+[31m     +   endTime: DateTime,[39m
+[31m     +   location: String,[39m
+[31m     +   totalCapacity: Int,[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         },[39m
+[31m     ?   id?: String,[39m
+[31m     ?   capacity?: Int,[39m
+[31m     ?   attendees?: {[39m
+[31m     ?     create?: AttendeeToEventCreateWithoutEventInput | AttendeeToEventCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput,[39m
+[31m     ?     connectOrCreate?: AttendeeToEventCreateOrConnectWithoutEventInput | AttendeeToEventCreateOrConnectWithoutEventInput,[39m
+[31m     ?     createMany?: AttendeeToEventCreateManyEventInputEnvelope,[39m
+[31m     ?     connect?: AttendeeToEventWhereUniqueInput | AttendeeToEventWhereUniqueInput[39m
+[31m     ?   }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument description for data.description is missing.[39m
+[31mArgument date for data.date is missing.[39m
+[31mArgument startTime for data.startTime is missing.[39m
+[31mArgument endTime for data.endTime is missing.[39m
+[31mArgument totalCapacity for data.totalCapacity is missing.[39m
+[31mArgument location for data.location is missing.[39m
+
+[31mNote: Lines with + are required, lines with ? are optional.[39m
+
+[31mError: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:26:42[39m
+
+[31m  23 [39m
+[31m  24 if (imageUrl) imagelink = imageUrl;[39m
+[31m  25 [39m
+[31m→ 26 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'kuye damilola',[39m
+[31m     +   description: String,[39m
+[31m     +   date: DateTime,[39m
+[31m     +   startTime: DateTime,[39m
+[31m     +   endTime: DateTime,[39m
+[31m     +   location: String,[39m
+[31m     +   totalCapacity: Int,[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         },[39m
+[31m     ?   id?: String,[39m
+[31m     ?   capacity?: Int,[39m
+[31m     ?   attendees?: {[39m
+[31m     ?     create?: AttendeeToEventCreateWithoutEventInput | AttendeeToEventCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput | AttendeeToEventUncheckedCreateWithoutEventInput,[39m
+[31m     ?     connectOrCreate?: AttendeeToEventCreateOrConnectWithoutEventInput | AttendeeToEventCreateOrConnectWithoutEventInput,[39m
+[31m     ?     createMany?: AttendeeToEventCreateManyEventInputEnvelope,[39m
+[31m     ?     connect?: AttendeeToEventWhereUniqueInput | AttendeeToEventWhereUniqueInput[39m
+[31m     ?   }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument description for data.description is missing.[39m
+[31mArgument date for data.date is missing.[39m
+[31mArgument startTime for data.startTime is missing.[39m
+[31mArgument endTime for data.endTime is missing.[39m
+[31mArgument totalCapacity for data.totalCapacity is missing.[39m
+[31mArgument location for data.location is missing.[39m
+
+[31mNote: Lines with + are required, lines with ? are optional.[39m
+
+[31m    at ti.validate (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:149:91)[39m
+[31m    at Wr.createMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:164:13655)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
+[31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
+[31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m
+[31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m
+2023-03-19 16:24:23 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:25:42[39m
+
+[31m  22 [39m
+[31m  23 if (imageUrl) imagelink = imageUrl;[39m
+[31m  24 [39m
+[31m→ 25 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m         description: 'This is going to be a good event',[39m
+[31m         date: '2022-12-23',[39m
+[31m               ~~~~~~~~~~~~[39m
+[31m         startTime: '12:20',[39m
+[31m                    ~~~~~~~[39m
+[31m         endTime: '18:00',[39m
+[31m                  ~~~~~~~[39m
+[31m         location: 'New Location',[39m
+[31m         totalCapacity: [[39m
+[31m           '',[39m
+[31m           '12'[39m
+[31m         ],[39m
+[31m         ~~~~~~~~~~~~[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument date: Got invalid value '2022-12-23' on prisma.createOneEvent. Provided String, expected DateTime.[39m
+[31mArgument startTime: Got invalid value '12:20' on prisma.createOneEvent. Provided String, expected DateTime.[39m
+[31mArgument endTime: Got invalid value '18:00' on prisma.createOneEvent. Provided String, expected DateTime.[39m
+[31mArgument totalCapacity: Got invalid value [39m
+[31m[[39m
+[31m  '',[39m
+[31m  '12'[39m
+[31m][39m
+[31mon prisma.createOneEvent. Provided List<String>, expected Int.[39m
+
+
+[31mError: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:25:42[39m
+
+[31m  22 [39m
+[31m  23 if (imageUrl) imagelink = imageUrl;[39m
+[31m  24 [39m
+[31m→ 25 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m         description: 'This is going to be a good event',[39m
+[31m         date: '2022-12-23',[39m
+[31m               ~~~~~~~~~~~~[39m
+[31m         startTime: '12:20',[39m
+[31m                    ~~~~~~~[39m
+[31m         endTime: '18:00',[39m
+[31m                  ~~~~~~~[39m
+[31m         location: 'New Location',[39m
+[31m         totalCapacity: [[39m
+[31m           '',[39m
+[31m           '12'[39m
+[31m         ],[39m
+[31m         ~~~~~~~~~~~~[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument date: Got invalid value '2022-12-23' on prisma.createOneEvent. Provided String, expected DateTime.[39m
+[31mArgument startTime: Got invalid value '12:20' on prisma.createOneEvent. Provided String, expected DateTime.[39m
+[31mArgument endTime: Got invalid value '18:00' on prisma.createOneEvent. Provided String, expected DateTime.[39m
+[31mArgument totalCapacity: Got invalid value [39m
+[31m[[39m
+[31m  '',[39m
+[31m  '12'[39m
+[31m][39m
+[31mon prisma.createOneEvent. Provided List<String>, expected Int.[39m
+
+
+[31m    at ti.validate (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:149:91)[39m
+[31m    at Wr.createMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:164:13655)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
+[31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
+[31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m
+[31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m
+2023-03-19 16:24:23 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:25:42[39m
+
+[31m  22 [39m
+[31m  23 if (imageUrl) imagelink = imageUrl;[39m
+[31m  24 [39m
+[31m→ 25 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m         description: 'This is going to be a good event',[39m
+[31m         date: '2022-12-23',[39m
+[31m               ~~~~~~~~~~~~[39m
+[31m         startTime: '12:20',[39m
+[31m                    ~~~~~~~[39m
+[31m         endTime: '18:00',[39m
+[31m                  ~~~~~~~[39m
+[31m         location: 'New Location',[39m
+[31m         totalCapacity: [[39m
+[31m           '',[39m
+[31m           '12'[39m
+[31m         ],[39m
+[31m         ~~~~~~~~~~~~[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument date: Got invalid value '2022-12-23' on prisma.createOneEvent. Provided String, expected DateTime.[39m
+[31mArgument startTime: Got invalid value '12:20' on prisma.createOneEvent. Provided String, expected DateTime.[39m
+[31mArgument endTime: Got invalid value '18:00' on prisma.createOneEvent. Provided String, expected DateTime.[39m
+[31mArgument totalCapacity: Got invalid value [39m
+[31m[[39m
+[31m  '',[39m
+[31m  '12'[39m
+[31m][39m
+[31mon prisma.createOneEvent. Provided List<String>, expected Int.[39m
+
+
+[31mError: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:25:42[39m
+
+[31m  22 [39m
+[31m  23 if (imageUrl) imagelink = imageUrl;[39m
+[31m  24 [39m
+[31m→ 25 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m         description: 'This is going to be a good event',[39m
+[31m         date: '2022-12-23',[39m
+[31m               ~~~~~~~~~~~~[39m
+[31m         startTime: '12:20',[39m
+[31m                    ~~~~~~~[39m
+[31m         endTime: '18:00',[39m
+[31m                  ~~~~~~~[39m
+[31m         location: 'New Location',[39m
+[31m         totalCapacity: [[39m
+[31m           '',[39m
+[31m           '12'[39m
+[31m         ],[39m
+[31m         ~~~~~~~~~~~~[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument date: Got invalid value '2022-12-23' on prisma.createOneEvent. Provided String, expected DateTime.[39m
+[31mArgument startTime: Got invalid value '12:20' on prisma.createOneEvent. Provided String, expected DateTime.[39m
+[31mArgument endTime: Got invalid value '18:00' on prisma.createOneEvent. Provided String, expected DateTime.[39m
+[31mArgument totalCapacity: Got invalid value [39m
+[31m[[39m
+[31m  '',[39m
+[31m  '12'[39m
+[31m][39m
+[31mon prisma.createOneEvent. Provided List<String>, expected Int.[39m
+
+
+[31m    at ti.validate (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:149:91)[39m
+[31m    at Wr.createMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:164:13655)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
+[31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
+[31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m
+[31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m
+2023-03-19 17:06:51 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:25:42[39m
+
+[31m  22 [39m
+[31m  23 if (imageUrl) imagelink = imageUrl;[39m
+[31m  24 [39m
+[31m→ 25 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m         description: 'This is going to be a good event',[39m
+[31m         date: new Date('2022-12-23T00:00:00.000Z'),[39m
+[31m         startTime: '12:20',[39m
+[31m         endTime: '18:00',[39m
+[31m         location: 'New Location',[39m
+[31m         totalCapacity: [[39m
+[31m           '',[39m
+[31m           '12'[39m
+[31m         ],[39m
+[31m         ~~~~~~~~~~~~[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument totalCapacity: Got invalid value [39m
+[31m[[39m
+[31m  '',[39m
+[31m  '12'[39m
+[31m][39m
+[31mon prisma.createOneEvent. Provided List<String>, expected Int.[39m
+
+
+[31mError: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:25:42[39m
+
+[31m  22 [39m
+[31m  23 if (imageUrl) imagelink = imageUrl;[39m
+[31m  24 [39m
+[31m→ 25 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m         description: 'This is going to be a good event',[39m
+[31m         date: new Date('2022-12-23T00:00:00.000Z'),[39m
+[31m         startTime: '12:20',[39m
+[31m         endTime: '18:00',[39m
+[31m         location: 'New Location',[39m
+[31m         totalCapacity: [[39m
+[31m           '',[39m
+[31m           '12'[39m
+[31m         ],[39m
+[31m         ~~~~~~~~~~~~[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument totalCapacity: Got invalid value [39m
+[31m[[39m
+[31m  '',[39m
+[31m  '12'[39m
+[31m][39m
+[31mon prisma.createOneEvent. Provided List<String>, expected Int.[39m
+
+
+[31m    at ti.validate (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:149:91)[39m
+[31m    at Wr.createMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:164:13655)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
+[31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
+[31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m
+[31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m
+2023-03-19 17:06:51 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:25:42[39m
+
+[31m  22 [39m
+[31m  23 if (imageUrl) imagelink = imageUrl;[39m
+[31m  24 [39m
+[31m→ 25 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m         description: 'This is going to be a good event',[39m
+[31m         date: new Date('2022-12-23T00:00:00.000Z'),[39m
+[31m         startTime: '12:20',[39m
+[31m         endTime: '18:00',[39m
+[31m         location: 'New Location',[39m
+[31m         totalCapacity: [[39m
+[31m           '',[39m
+[31m           '12'[39m
+[31m         ],[39m
+[31m         ~~~~~~~~~~~~[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument totalCapacity: Got invalid value [39m
+[31m[[39m
+[31m  '',[39m
+[31m  '12'[39m
+[31m][39m
+[31mon prisma.createOneEvent. Provided List<String>, expected Int.[39m
+
+
+[31mError: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:25:42[39m
+
+[31m  22 [39m
+[31m  23 if (imageUrl) imagelink = imageUrl;[39m
+[31m  24 [39m
+[31m→ 25 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m         description: 'This is going to be a good event',[39m
+[31m         date: new Date('2022-12-23T00:00:00.000Z'),[39m
+[31m         startTime: '12:20',[39m
+[31m         endTime: '18:00',[39m
+[31m         location: 'New Location',[39m
+[31m         totalCapacity: [[39m
+[31m           '',[39m
+[31m           '12'[39m
+[31m         ],[39m
+[31m         ~~~~~~~~~~~~[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument totalCapacity: Got invalid value [39m
+[31m[[39m
+[31m  '',[39m
+[31m  '12'[39m
+[31m][39m
+[31mon prisma.createOneEvent. Provided List<String>, expected Int.[39m
+
+
+[31m    at ti.validate (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:149:91)[39m
+[31m    at Wr.createMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:164:13655)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
+[31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
+[31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m
+[31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m
+2023-03-19 17:10:32 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:25:42[39m
+
+[31m  22 [39m
+[31m  23 if (imageUrl) imagelink = imageUrl;[39m
+[31m  24 [39m
+[31m→ 25 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m         description: 'This is going to be a good event',[39m
+[31m         date: new Date('2022-12-23T00:00:00.000Z'),[39m
+[31m         startTime: '12:20',[39m
+[31m         endTime: '18:00',[39m
+[31m         location: 'New Location',[39m
+[31m         totalCapacity: '12',[39m
+[31m                        ~~~~[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument totalCapacity: Got invalid value '12' on prisma.createOneEvent. Provided String, expected Int.[39m
+
+
+[31mError: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:25:42[39m
+
+[31m  22 [39m
+[31m  23 if (imageUrl) imagelink = imageUrl;[39m
+[31m  24 [39m
+[31m→ 25 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m         description: 'This is going to be a good event',[39m
+[31m         date: new Date('2022-12-23T00:00:00.000Z'),[39m
+[31m         startTime: '12:20',[39m
+[31m         endTime: '18:00',[39m
+[31m         location: 'New Location',[39m
+[31m         totalCapacity: '12',[39m
+[31m                        ~~~~[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument totalCapacity: Got invalid value '12' on prisma.createOneEvent. Provided String, expected Int.[39m
+
+
+[31m    at ti.validate (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:149:91)[39m
+[31m    at Wr.createMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:164:13655)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
+[31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
+[31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m
+[31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m
+2023-03-19 17:10:32 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:25:42[39m
+
+[31m  22 [39m
+[31m  23 if (imageUrl) imagelink = imageUrl;[39m
+[31m  24 [39m
+[31m→ 25 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m         description: 'This is going to be a good event',[39m
+[31m         date: new Date('2022-12-23T00:00:00.000Z'),[39m
+[31m         startTime: '12:20',[39m
+[31m         endTime: '18:00',[39m
+[31m         location: 'New Location',[39m
+[31m         totalCapacity: '12',[39m
+[31m                        ~~~~[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument totalCapacity: Got invalid value '12' on prisma.createOneEvent. Provided String, expected Int.[39m
+
+
+[31mError: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:25:42[39m
+
+[31m  22 [39m
+[31m  23 if (imageUrl) imagelink = imageUrl;[39m
+[31m  24 [39m
+[31m→ 25 const event = await prisma.event.create({[39m
+[31m       data: {[39m
+[31m         name: 'Testing Event',[39m
+[31m         description: 'This is going to be a good event',[39m
+[31m         date: new Date('2022-12-23T00:00:00.000Z'),[39m
+[31m         startTime: '12:20',[39m
+[31m         endTime: '18:00',[39m
+[31m         location: 'New Location',[39m
+[31m         totalCapacity: '12',[39m
+[31m                        ~~~~[39m
+[31m         imageUrl: '',[39m
+[31m         creator: {[39m
+[31m           connect: {[39m
+[31m             id: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m           }[39m
+[31m         }[39m
+[31m       }[39m
+[31m     })[39m
+
+[31mArgument totalCapacity: Got invalid value '12' on prisma.createOneEvent. Provided String, expected Int.[39m
+
+
+[31m    at ti.validate (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:149:91)[39m
+[31m    at Wr.createMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:164:13655)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
+[31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
+[31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m
+[31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m
+2023-03-19 17:14:22 [31merror[39m: [31munhandledRejection: No recipients defined[39m
+[31mError: No recipients defined[39m
+[31m    at SMTPConnection._formatError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)[39m
+[31m    at SMTPConnection._setEnvelope (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1007:34)[39m
+[31m    at SMTPConnection.send (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:621:14)[39m
+[31m    at sendMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:286:25[39m
+[31m    at SMTPConnection._actionAUTHComplete (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1562:9)[39m
+[31m    at SMTPConnection.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)[39m
+[31m    at SMTPConnection._processResponse (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)[39m
+[31m    at SMTPConnection._onData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)[39m
+[31m    at TLSSocket.SMTPConnection._onSocketData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)[39m
+2023-03-19 17:14:22 [31merror[39m: [31munhandledRejection: No recipients defined[39m
+[31mError: No recipients defined[39m
+[31m    at SMTPConnection._formatError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)[39m
+[31m    at SMTPConnection._setEnvelope (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1007:34)[39m
+[31m    at SMTPConnection.send (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:621:14)[39m
+[31m    at sendMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:286:25[39m
+[31m    at SMTPConnection._actionAUTHComplete (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1562:9)[39m
+[31m    at SMTPConnection.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)[39m
+[31m    at SMTPConnection._processResponse (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)[39m
+[31m    at SMTPConnection._onData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)[39m
+[31m    at TLSSocket.SMTPConnection._onSocketData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)[39m
+2023-03-19 17:31:12 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:29:42[39m
+
+[31m  26 [39m
+[31m  27 if (imageUrl) imagelink = imageUrl;[39m
+[31m  28 [39m
+[31m→ 29 const event = await prisma.event.create([39m
+[31mUnique constraint failed on the fields: (`creatorId`)[39m
+[31mError: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:29:42[39m
+
+[31m  26 [39m
+[31m  27 if (imageUrl) imagelink = imageUrl;[39m
+[31m  28 [39m
+[31m→ 29 const event = await prisma.event.create([39m
+[31mUnique constraint failed on the fields: (`creatorId`)[39m
+[31m    at Zr.handleRequestError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:171:6414)[39m
+[31m    at Zr.handleAndLogRequestError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:171:5948)[39m
+[31m    at Zr.request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:171:5786)[39m
+[31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m
+2023-03-19 17:31:12 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:29:42[39m
+
+[31m  26 [39m
+[31m  27 if (imageUrl) imagelink = imageUrl;[39m
+[31m  28 [39m
+[31m→ 29 const event = await prisma.event.create([39m
+[31mUnique constraint failed on the fields: (`creatorId`)[39m
+[31mError: [39m
+[31mInvalid `prisma.event.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:29:42[39m
+
+[31m  26 [39m
+[31m  27 if (imageUrl) imagelink = imageUrl;[39m
+[31m  28 [39m
+[31m→ 29 const event = await prisma.event.create([39m
+[31mUnique constraint failed on the fields: (`creatorId`)[39m
+[31m    at Zr.handleRequestError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:171:6414)[39m
+[31m    at Zr.handleAndLogRequestError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:171:5948)[39m
+[31m    at Zr.request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:171:5786)[39m
+[31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m

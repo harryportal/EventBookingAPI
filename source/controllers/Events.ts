@@ -1,4 +1,4 @@
-import {Request, Response} from "express";
+import {Response} from "express";
 import { AuthRequest } from "../interfaces/userAuth";
 import { prisma } from "../utils/db";
 import { BadRequestError } from "../middleware/error";
@@ -8,27 +8,29 @@ import cloudinaryInstance from "../service/cloudinary";
 
 
 
+
 export default class EventController {
 
     static createEvent = async (req:AuthRequest,  res:Response) => {
-        const {name, description, date, startTime, endTime,  location, totalCapacity} = req.body;
+        let {name, description, date, startTime, endTime,  location, totalCapacity} = req.body;
+        date = new Date(date);
+        totalCapacity = Number(totalCapacity);
 
-        const localFilePath = req.file?.path || "";
-        const { imageUrl } = await cloudinaryInstance.uploadImage(localFilePath);
-
+        
         const event = await prisma.event.create({
             data: {
-                name, description, date, startTime, endTime, location, totalCapacity, imageUrl,
+                name, description, date, startTime, endTime, location, totalCapacity,
                 creator: {
                     connect: {id: req.user.id}
                 }
             }   
         })
+
         // Work on templates later
         const mailing =  new MailService();
         try{
         mailing.sendMail(req.headers['X-Request-Id'], {to:req.user.email, subject: "Event Created", html:"Email Sent"})
-        res.json({sucess:true, data:event});}
+        res.status(201).json({sucess:true, data:event});}
         catch(err){
             logger.error(err) }
         };
@@ -72,11 +74,12 @@ export default class EventController {
             where: { id: eventId },
             data: { capacity: { increment: 1 } }
           })
-        ])
+
+        ]);
 
         
         const [newAttendee, _] = addAttendee;
-        res.json({success:true, data: newAttendee});
+        res.status(201).json({success:true, data: newAttendee});
     }
 
 
@@ -100,6 +103,38 @@ export default class EventController {
 
         res.json({success:true, data: eventAttendees})
     }
+
+    static udpateEvent = async (req:AuthRequest,  res:Response) => {
+        let {name, description, date, startTime, endTime,  location, totalCapacity} = req.body;
+        date = new Date(date);
+        totalCapacity = Number(totalCapacity);
+
+        
+        const event = await prisma.event.update({
+            where:{
+                id: req.params.id
+            },
+            data: {
+                name, description, date, startTime, endTime, location, totalCapacity
+            }   
+        })
+
+        res.status(201).json({sucess:true, data:event});
+    }
+      
+
+
+        static addImage = async (req: AuthRequest,  res: Response) => {
+
+            const localFilePath = req.file?.path || "";
+            let imagelink = "";
+            if (localFilePath) {
+                var { imageUrl } = await cloudinaryInstance.uploadImage(localFilePath); 
+            }
+            
+            if (imageUrl) imagelink = imageUrl;
+            
+        }
 }
 
 

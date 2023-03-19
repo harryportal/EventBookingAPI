@@ -40,3 +40,784 @@
 2023-03-16 01:29:30 [31merror[39m: [31mError Connecting to Database Authentication failed against database server at `localhost`, the provided database credentials for `postgres` are not valid.[39m
 
 [31mPlease make sure to provide valid database credentials for the database server at `localhost`.[39m
+2023-03-18 11:35:28 [31merror[39m: [31m[ 'username should not be null or undefined' ][39m
+2023-03-18 11:52:54 [31merror[39m: [31m[[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'location must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  ... 27 more items[39m
+[31m][39m
+2023-03-18 11:53:37 [31merror[39m: [31m[[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'location must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  ... 27 more items[39m
+[31m][39m
+2023-03-18 12:04:31 [31merror[39m: [31m[[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'location must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  ... 27 more items[39m
+[31m][39m
+2023-03-19 16:15:51 [31merror[39m: [31m[[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'location must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'location must be a string',[39m
+[31m  'totalCapacity must be a number conforming to the specified constraints'[39m
+[31m][39m
+2023-03-19 16:16:01 [31merror[39m: [31m[[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'location must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'location must be a string',[39m
+[31m  'totalCapacity must be a number conforming to the specified constraints'[39m
+[31m][39m
+2023-03-19 16:16:36 [31merror[39m: [31m[[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'location must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'description must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'location must be a string',[39m
+[31m  'totalCapacity must be a number conforming to the specified constraints'[39m
+[31m][39m
+2023-03-19 16:19:32 [31merror[39m: [31m[[39m
+[31m  'totalCapacity must be a number conforming to the specified constraints'[39m
+[31m][39m
+2023-03-19 16:21:22 [31merror[39m: [31m[ 'totalCapacity must be a string' ][39m
+2023-03-19 16:22:41 [31merror[39m: [31m[[39m
+[31m  'totalCapacity must be a number conforming to the specified constraints'[39m
+[31m][39m
+2023-03-19 16:23:03 [31merror[39m: [31m[[39m
+[31m  'totalCapacity must be a number conforming to the specified constraints'[39m
+[31m][39m
+2023-03-19 16:23:22 [31merror[39m: [31m[[39m
+[31m  'totalCapacity must be a number conforming to the specified constraints'[39m
+[31m][39m
+2023-03-19 17:08:53 [31merror[39m: [31m[[39m
+[31m  'totalCapacity must be a number conforming to the specified constraints'[39m
+[31m][39m
+2023-03-19 17:27:13 [31merror[39m: [31m[[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'totalCapacity must be a number string'[39m
+[31m][39m
+2023-03-19 17:28:45 [31merror[39m: [31m[[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'totalCapacity must be a number string'[39m
+[31m][39m
+2023-03-19 17:29:50 [31merror[39m: [31m[[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'totalCapacity must be a number string'[39m
+[31m][39m
+2023-03-19 17:30:47 [31merror[39m: [31m[[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'name must be a string',[39m
+[31m  'description must be a string',[39m
+[31m  'date must be a valid ISO 8601 date string',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'Invalid time format. Use the format HH:mm',[39m
+[31m  'totalCapacity must be a number string'[39m
+[31m][39m

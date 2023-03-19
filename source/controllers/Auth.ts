@@ -27,7 +27,7 @@ export default class AuthController {
     });
     const User = { firstname, lastname, email, id: user.id };
     const token = createJWT(user);
-    res.json({ User, token });
+    res.status(201).json({ data: {User, token}, success: true });
   };
 
 
@@ -46,6 +46,7 @@ export default class AuthController {
       throw new BadRequestError('Authentication Failed!');
     }
     const token = createJWT(user);
+  
     res.json({ token });
   };
 }

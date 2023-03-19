@@ -28,14 +28,14 @@ model Event {
   id          String     @id @default(uuid())
   name        String
   description String     @db.VarChar(255)
-  imageUrl    String?
-  date        DateTime
-  startTime   DateTime
-  endTime     DateTime
+  imageUrl    String?    
+  date        DateTime   
+  startTime   String
+  endTime     String
   totalCapacity Int
   capacity    Int   @default(0)
   location    String
-  creatorId   String @unique
+  creatorId   String 
   creator     User @relation(fields: [creatorId], references: [id])
   attendees   AttendeeToEvent[]
 }
