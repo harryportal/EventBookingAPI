@@ -97,21 +97,38 @@ export default class EventController {
 
 
     static getAttendees =async (req:AuthRequest,  res:Response) => {
-        const eventId = req.params.id;
-        const userId = req.user.id;
 
         const eventAttendees = await prisma.event.findFirst({
             where:{ 
-                id: eventId,
-                creatorId: userId
+                id: req.params.id,
+                creatorId: req.user.id
             },include:{
-                attendees: {select:{ attendee : {select: {user: true}} }}
+                attendees: {select:{ attendee : {select: {user: {
+                    select:{firstname: true, lastname: true, email: true, contact: true}
+                }}} }}
             }
         });
 
         if(!eventAttendees) { throw new BadRequestError("No event with Id!") };
 
-        res.status(200).json({success:true, data: eventAttendees})
+        res.status(200).json({success:true, data:eventAttendees})
+    }
+
+    static getEvent =async (req:AuthRequest, res:Response) => {
+
+        const event = await prisma.event.findFirst({
+            where:{ 
+                id: req.params.id,
+                creatorId: req.user.id
+            }, include:{
+                _count: {select: {attendees: true}}
+            }
+        })
+
+        if(!event) { throw new BadRequestError("No event with Id!") };
+        res.status(200).json({success:true, data: event})
+
+        
     }
 
     static udpateEvent = async (req:AuthRequest,  res:Response) => {

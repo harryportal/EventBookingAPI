@@ -23,7 +23,7 @@ class GoogleService{
 
     getAuthCode = ():string=>{
     const baseUrl = "https://accounts.google.com/o/oauth2/auth"
-    const scopes = "https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email"
+    const scopes = "https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/user.phonenumbers.read"
     const authUrl = `${baseUrl}?response_type=code&client_id=${this.client_id}&redirect_uri=${this.redirect_url}&scope=${scopes}`
     return authUrl
     }

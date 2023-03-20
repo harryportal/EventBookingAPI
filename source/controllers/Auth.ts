@@ -1,7 +1,7 @@
 import {prisma} from '../utils/db';
 import { Request, Response } from 'express';
 import { comparePassword, createJWT, hashPassword } from '../utils/auth';
-import { BadRequestError } from '../middleware/error';
+import { AuthError, BadRequestError } from '../middleware/error';
 
 
 
@@ -10,22 +10,24 @@ export default class AuthController {
 
 
   static signUp = async (req: Request, res: Response) => {
-    let { firstname, lastname, email, password } = req.body;
+    let { firstname, lastname, email, password, contact } = req.body;
+
     let user = await prisma.user.findUnique({  // check if user with email already exist
       where: { email: req.body.email },
     });
-    if (user) {
-      throw new BadRequestError('Email already exists!');
-    }
+
+    if (user) throw new BadRequestError('Email already exists!');
+
     user = await prisma.user.create({
       data: {
-        firstname,
+        firstname, 
         lastname,
         email,
+        contact,
         password: await hashPassword(password),
-      },
+      }
     });
-    const User = { firstname, lastname, email, id: user.id };
+    const User = { firstname, lastname, email, id: user.id, contact };
     const token = createJWT(user);
     res.status(201).json({ data: {User, token}, success: true });
   };
@@ -43,7 +45,7 @@ export default class AuthController {
     const isValid = await comparePassword(req.body.password, user.password);
 
     if (!isValid) {
-      throw new BadRequestError('Authentication Failed!');
+      throw new AuthError('Authentication Failed!');
     }
     const token = createJWT(user);
   

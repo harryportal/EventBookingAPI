@@ -17,8 +17,7 @@ model User {
   lastname  String
   email     String   @unique
   password  String
-  contact   String?
-  address   String?
+  contact   String
   event Event[]
   attendee  Attendee?  // one to one relationship with the attendee model
 }

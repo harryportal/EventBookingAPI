@@ -29,7 +29,7 @@ export default class GoogleOauthController {
       
           const { id_token, access_token } = await googleService.getToken({code});
       
-          const { name, verified_email, email, given_name, family_name}  = await googleService.getUser({
+          const { verified_email, email, given_name, family_name, phoneNumber}  = await googleService.getUser({
             id_token,
             access_token,
           });
@@ -49,6 +49,7 @@ export default class GoogleOauthController {
               lastname: family_name,
               email,
               password: "",
+              contact: phoneNumber
 
             },
             update: {firstname: given_name, lastname: family_name, email},

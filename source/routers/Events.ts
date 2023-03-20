@@ -12,5 +12,6 @@ eventRouter.post("/:id/attendees", protect, EventController.addAttendee);
 eventRouter.get('/:id/attendees', protect, EventController.getAttendees);
 eventRouter.put("/:id", protect, EventController.udpateEvent);
 eventRouter.post("/:id/image", protect, multerUpload.single("image"), EventController.addImage)
+eventRouter.get("/:id", protect, EventController.getEvent)
 
 export default eventRouter;

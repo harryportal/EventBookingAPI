@@ -1906,3 +1906,1059 @@
 [31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
 [31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
 [31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m
+2023-03-20 16:02:30 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Auth.ts[0m:[93m21[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: any; lastname: any; email: any; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: any; lastname: any; email: any; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: any; lastname: any; email: any; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m21[0m       data: {[39m
+[31m[7m  [0m [91m      ~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1808[0m:[93m5[0m[39m
+[31m    [7m1808[0m     data: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~[0m[39m
+[31m    The expected type comes from property 'data' which is declared here on type '{ select?: UserSelect; include?: UserInclude; data: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Auth.ts[0m:[93m21[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: any; lastname: any; email: any; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: any; lastname: any; email: any; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: any; lastname: any; email: any; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m21[0m       data: {[39m
+[31m[7m  [0m [91m      ~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1808[0m:[93m5[0m[39m
+[31m    [7m1808[0m     data: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~[0m[39m
+[31m    The expected type comes from property 'data' which is declared here on type '{ select?: UserSelect; include?: UserInclude; data: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:02:30 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Auth.ts[0m:[93m21[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: any; lastname: any; email: any; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: any; lastname: any; email: any; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: any; lastname: any; email: any; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m21[0m       data: {[39m
+[31m[7m  [0m [91m      ~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1808[0m:[93m5[0m[39m
+[31m    [7m1808[0m     data: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~[0m[39m
+[31m    The expected type comes from property 'data' which is declared here on type '{ select?: UserSelect; include?: UserInclude; data: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Auth.ts[0m:[93m21[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: any; lastname: any; email: any; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: any; lastname: any; email: any; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: any; lastname: any; email: any; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m21[0m       data: {[39m
+[31m[7m  [0m [91m      ~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1808[0m:[93m5[0m[39m
+[31m    [7m1808[0m     data: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~[0m[39m
+[31m    The expected type comes from property 'data' which is declared here on type '{ select?: UserSelect; include?: UserInclude; data: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:04:41 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:04:41 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:05:18 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:05:18 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:06:14 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:06:14 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:07:36 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:07:36 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:07:53 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:07:53 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:08:37 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:08:37 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:10:09 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:10:09 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:10:38 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:10:38 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:11:22 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:11:22 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:12:57 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:12:57 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:23:28 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+2023-03-20 16:23:28 [31merror[39m: [31muncaughtException: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31mTSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msource/controllers/Oauth.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type '(Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput)'.[39m
+[31m  Type '{ firstname: string; lastname: string; email: string; password: string; }' is not assignable to type 'Without<UserUncheckedCreateInput, UserCreateInput> & UserCreateInput'.[39m
+[31m    Property 'contact' is missing in type '{ firstname: string; lastname: string; email: string; password: string; }' but required in type 'UserCreateInput'.[39m
+
+[31m[7m47[0m             create: {[39m
+[31m[7m  [0m [91m            ~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m5161[0m:[93m5[0m[39m
+[31m    [7m5161[0m     contact: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    'contact' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1881[0m:[93m5[0m[39m
+[31m    [7m1881[0m     create: XOR<UserCreateInput, UserUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~~~[0m[39m
+[31m    The expected type comes from property 'create' which is declared here on type '{ select?: UserSelect; include?: UserInclude; where: UserWhereUniqueInput; create: (Without<UserCreateInput, UserUncheckedCreateInput> & UserUncheckedCreateInput) | (Without<...> & UserCreateInput); update: (Without<...> & UserUncheckedUpdateInput) | (Without<...> & UserUpdateInput); }'[39m
+
+[31m    at createTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:859:12)[39m
+[31m    at reportTSError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:863:19)[39m
+[31m    at getOutput (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1077:36)[39m
+[31m    at Object.compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1433:41)[39m
+[31m    at Module.m._compile (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1617:30)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
