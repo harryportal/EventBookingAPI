@@ -1722,3 +1722,187 @@
 [31m    at Zr.handleAndLogRequestError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:171:5948)[39m
 [31m    at Zr.request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:171:5786)[39m
 [31m    at async t._request (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10455)[39m
+2023-03-19 18:04:50 [31merror[39m: [31munhandledRejection: No recipients defined[39m
+[31mError: No recipients defined[39m
+[31m    at SMTPConnection._formatError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)[39m
+[31m    at SMTPConnection._setEnvelope (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1007:34)[39m
+[31m    at SMTPConnection.send (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:621:14)[39m
+[31m    at sendMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:286:25[39m
+[31m    at SMTPConnection._actionAUTHComplete (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1562:9)[39m
+[31m    at SMTPConnection.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)[39m
+[31m    at SMTPConnection._processResponse (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)[39m
+[31m    at SMTPConnection._onData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)[39m
+[31m    at TLSSocket.SMTPConnection._onSocketData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)[39m
+2023-03-19 18:04:50 [31merror[39m: [31munhandledRejection: No recipients defined[39m
+[31mError: No recipients defined[39m
+[31m    at SMTPConnection._formatError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)[39m
+[31m    at SMTPConnection._setEnvelope (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1007:34)[39m
+[31m    at SMTPConnection.send (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:621:14)[39m
+[31m    at sendMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:286:25[39m
+[31m    at SMTPConnection._actionAUTHComplete (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1562:9)[39m
+[31m    at SMTPConnection.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)[39m
+[31m    at SMTPConnection._processResponse (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)[39m
+[31m    at SMTPConnection._onData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)[39m
+[31m    at TLSSocket.SMTPConnection._onSocketData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)[39m
+2023-03-19 18:09:07 [31merror[39m: [31munhandledRejection: No recipients defined[39m
+[31mError: No recipients defined[39m
+[31m    at SMTPConnection._formatError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)[39m
+[31m    at SMTPConnection._setEnvelope (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1007:34)[39m
+[31m    at SMTPConnection.send (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:621:14)[39m
+[31m    at sendMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:286:25[39m
+[31m    at SMTPConnection._actionAUTHComplete (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1562:9)[39m
+[31m    at SMTPConnection.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)[39m
+[31m    at SMTPConnection._processResponse (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)[39m
+[31m    at SMTPConnection._onData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)[39m
+[31m    at TLSSocket.SMTPConnection._onSocketData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)[39m
+2023-03-19 18:09:07 [31merror[39m: [31munhandledRejection: No recipients defined[39m
+[31mError: No recipients defined[39m
+[31m    at SMTPConnection._formatError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)[39m
+[31m    at SMTPConnection._setEnvelope (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1007:34)[39m
+[31m    at SMTPConnection.send (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:621:14)[39m
+[31m    at sendMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:286:25[39m
+[31m    at SMTPConnection._actionAUTHComplete (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1562:9)[39m
+[31m    at SMTPConnection.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)[39m
+[31m    at SMTPConnection._processResponse (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)[39m
+[31m    at SMTPConnection._onData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)[39m
+[31m    at TLSSocket.SMTPConnection._onSocketData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)[39m
+2023-03-19 18:11:29 [31merror[39m: [31munhandledRejection: No recipients defined[39m
+[31mError: No recipients defined[39m
+[31m    at SMTPConnection._formatError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)[39m
+[31m    at SMTPConnection._setEnvelope (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1007:34)[39m
+[31m    at SMTPConnection.send (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:621:14)[39m
+[31m    at sendMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:286:25[39m
+[31m    at SMTPConnection._actionAUTHComplete (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1562:9)[39m
+[31m    at SMTPConnection.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)[39m
+[31m    at SMTPConnection._processResponse (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)[39m
+[31m    at SMTPConnection._onData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)[39m
+[31m    at TLSSocket.SMTPConnection._onSocketData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)[39m
+2023-03-19 18:11:29 [31merror[39m: [31munhandledRejection: No recipients defined[39m
+[31mError: No recipients defined[39m
+[31m    at SMTPConnection._formatError (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)[39m
+[31m    at SMTPConnection._setEnvelope (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1007:34)[39m
+[31m    at SMTPConnection.send (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:621:14)[39m
+[31m    at sendMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-transport\index.js:286:25[39m
+[31m    at SMTPConnection._actionAUTHComplete (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:1562:9)[39m
+[31m    at SMTPConnection.<anonymous> (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)[39m
+[31m    at SMTPConnection._processResponse (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)[39m
+[31m    at SMTPConnection._onData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)[39m
+[31m    at TLSSocket.SMTPConnection._onSocketData (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)[39m
+2023-03-20 14:48:45 [31merror[39m: [31munhandledRejection: Cannot read properties of undefined (reading 'id')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:152:44[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:5:58)[39m
+2023-03-20 14:48:45 [31merror[39m: [31munhandledRejection: Cannot read properties of undefined (reading 'id')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'id')[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:152:44[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:5:58)[39m
+2023-03-20 14:58:58 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.attendee.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:63:46[39m
+
+[31m  60 })[39m
+[31m  61 [39m
+[31m  62 if(!attendee){[39m
+[31m→ 63     attendee = await prisma.attendee.create({[39m
+[31m           data: {[39m
+[31m             user: {[39m
+[31m               connect: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[39m
+[31m             }[39m
+[31m           }[39m
+[31m         })[39m
+
+[31mArgument connect: Got invalid value 'cf3256e6-d639-4e18-b1c4-287c1675f814' on prisma.createOneAttendee. Provided UUID, expected UserWhereUniqueInput:[39m
+[31mtype UserWhereUniqueInput {[39m
+[31m  id?: String[39m
+[31m  email?: String[39m
+[31m}[39m
+
+
+[31mError: [39m
+[31mInvalid `prisma.attendee.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:63:46[39m
+
+[31m  60 })[39m
+[31m  61 [39m
+[31m  62 if(!attendee){[39m
+[31m→ 63     attendee = await prisma.attendee.create({[39m
+[31m           data: {[39m
+[31m             user: {[39m
+[31m               connect: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[39m
+[31m             }[39m
+[31m           }[39m
+[31m         })[39m
+
+[31mArgument connect: Got invalid value 'cf3256e6-d639-4e18-b1c4-287c1675f814' on prisma.createOneAttendee. Provided UUID, expected UserWhereUniqueInput:[39m
+[31mtype UserWhereUniqueInput {[39m
+[31m  id?: String[39m
+[31m  email?: String[39m
+[31m}[39m
+
+
+[31m    at ti.validate (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:149:91)[39m
+[31m    at Wr.createMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:164:13655)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
+[31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
+[31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m
+2023-03-20 14:58:58 [31merror[39m: [31munhandledRejection: [39m
+[31mInvalid `prisma.attendee.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:63:46[39m
+
+[31m  60 })[39m
+[31m  61 [39m
+[31m  62 if(!attendee){[39m
+[31m→ 63     attendee = await prisma.attendee.create({[39m
+[31m           data: {[39m
+[31m             user: {[39m
+[31m               connect: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[39m
+[31m             }[39m
+[31m           }[39m
+[31m         })[39m
+
+[31mArgument connect: Got invalid value 'cf3256e6-d639-4e18-b1c4-287c1675f814' on prisma.createOneAttendee. Provided UUID, expected UserWhereUniqueInput:[39m
+[31mtype UserWhereUniqueInput {[39m
+[31m  id?: String[39m
+[31m  email?: String[39m
+[31m}[39m
+
+
+[31mError: [39m
+[31mInvalid `prisma.attendee.create()` invocation in[39m
+[31mC:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\source\controllers\Events.ts:63:46[39m
+
+[31m  60 })[39m
+[31m  61 [39m
+[31m  62 if(!attendee){[39m
+[31m→ 63     attendee = await prisma.attendee.create({[39m
+[31m           data: {[39m
+[31m             user: {[39m
+[31m               connect: 'cf3256e6-d639-4e18-b1c4-287c1675f814'[39m
+[31m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[39m
+[31m             }[39m
+[31m           }[39m
+[31m         })[39m
+
+[31mArgument connect: Got invalid value 'cf3256e6-d639-4e18-b1c4-287c1675f814' on prisma.createOneAttendee. Provided UUID, expected UserWhereUniqueInput:[39m
+[31mtype UserWhereUniqueInput {[39m
+[31m  id?: String[39m
+[31m  email?: String[39m
+[31m}[39m
+
+
+[31m    at ti.validate (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:149:91)[39m
+[31m    at Wr.createMessage (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:164:13655)[39m
+[31m    at C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10933[39m
+[31m    at runInChildSpan (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:70:25817)[39m
+[31m    at t._executeRequest (C:\Users\KUYE_HARRY\Desktop\COOK\EventBookingApi\node_modules\@prisma\client\runtime\library.js:174:10922)[39m

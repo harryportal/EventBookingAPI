@@ -1102,3 +1102,68 @@
 [31m][39m
 2023-03-19 17:35:33 [32minfo[39m: [32mListening on url http://localhost:3000[39m
 2023-03-19 17:35:33 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-19 18:04:44 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-19 18:04:44 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-19 18:09:02 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-19 18:09:02 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-19 18:11:20 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-19 18:11:20 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-19 18:14:15 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-19 18:14:15 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-19 18:15:19 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-19 18:15:19 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-19 18:15:26 [32minfo[39m: [32mundefined - Mail sent successfully!![39m
+2023-03-19 18:15:26 [32minfo[39m: [32mundefined - [MailResponse]=250 2.0.0 OK  1679249755 q2-20020a1ce902000000b003ed1fa34bd3sm8137456wmc.13 - gsmtp [MessageID]=<db30e557-b120-dc2d-4105-cf72d56eae90@gmail.com>[39m
+2023-03-19 18:24:18 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-19 18:24:18 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 14:47:49 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 14:47:50 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 14:49:17 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 14:49:17 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 14:50:42 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 14:50:42 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 14:51:04 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 14:51:04 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 14:52:01 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 14:52:02 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 14:54:43 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 14:54:43 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 14:54:57 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 14:54:58 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 14:55:16 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 14:55:16 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 14:55:30 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 14:55:30 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 14:55:48 [31merror[39m: [31m[[39m
+[31m  'firstname must be a string',[39m
+[31m  'firstname must be a string',[39m
+[31m  'email must be a string',[39m
+[31m  'firstname must be a string',[39m
+[31m  'firstname must be a string',[39m
+[31m  'email must be a string',[39m
+[31m  'lastname must be a string'[39m
+[31m][39m
+2023-03-20 14:58:54 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 14:58:54 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 15:03:01 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 15:03:01 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 15:03:38 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 15:03:38 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 15:05:26 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 15:05:26 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 15:47:00 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 15:47:00 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 15:48:26 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 15:48:26 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 15:48:49 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 15:48:49 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 15:49:02 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 15:49:02 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 15:50:04 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 15:50:05 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 15:50:35 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 15:50:35 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 15:51:52 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 15:51:52 [32minfo[39m: [32mConnected to Database Successsfully[39m
+2023-03-20 15:53:31 [32minfo[39m: [32mListening on url http://localhost:3000[39m
+2023-03-20 15:53:31 [32minfo[39m: [32mConnected to Database Successsfully[39m

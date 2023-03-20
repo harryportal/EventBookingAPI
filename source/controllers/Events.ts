@@ -1,7 +1,7 @@
 import {Response} from "express";
 import { AuthRequest } from "../interfaces/userAuth";
 import { prisma } from "../utils/db";
-import { BadRequestError } from "../middleware/error";
+import { AuthError, BadRequestError, NotFoundError } from "../middleware/error";
 import MailService from "../service/mailing";
 import logger from "../utils/winston";
 import cloudinaryInstance from "../service/cloudinary";
@@ -26,10 +26,15 @@ export default class EventController {
             }   
         })
 
+        // get current user email
+        const { email } = await prisma.user.findUnique({
+            where:{id: req.user.id},  select:{email:true}
+        })
+
         // Work on templates later
         const mailing =  new MailService();
         try{
-        mailing.sendMail(req.headers['X-Request-Id'], {to:req.user.email, subject: "Event Created", html:"Email Sent"})
+        mailing.sendMail(req.headers['X-Request-Id'], {to:email, subject: "Event Created", html:"Email Sent"})
         res.status(201).json({sucess:true, data:event});}
         catch(err){
             logger.error(err) }
@@ -49,14 +54,16 @@ export default class EventController {
 
         if(event.capacity == event.totalCapacity){ throw new BadRequestError("Event at Capacity") }
 
-        // check if user has registered for an event before
+        // check if user has registered for an event before and create attendee if false
         let attendee = await prisma.attendee.findUnique({
             where: {userId: req.user.id}
         })
 
         if(!attendee){
             attendee = await prisma.attendee.create({
-                data:{user:{connect:req.user.id}}
+                data:{
+                    user: {connect: {id: req.user.id}}
+                }
             })
         }
 
@@ -72,7 +79,10 @@ export default class EventController {
 
             prisma.event.update({
             where: { id: eventId },
-            data: { capacity: { increment: 1 } }
+            data: { capacity: { increment: 1 } },
+            include:{
+                attendees: true
+            }
           })
 
         ]);
@@ -95,44 +105,71 @@ export default class EventController {
                 id: eventId,
                 creatorId: userId
             },include:{
-                attendees: true
+                attendees: {select:{ attendee : {select: {user: true}} }}
             }
         });
 
         if(!eventAttendees) { throw new BadRequestError("No event with Id!") };
 
-        res.json({success:true, data: eventAttendees})
+        res.status(200).json({success:true, data: eventAttendees})
     }
 
     static udpateEvent = async (req:AuthRequest,  res:Response) => {
+
+        // check if current event belongs to signed in User.
+        let event = await prisma.event.findUnique({
+            where:{
+                id: req.params.id
+            }
+        })
+
+        if(!event) throw new NotFoundError("No Event with Id Found!")
+        if(event.creatorId != req.user.id) throw new AuthError("Not Authorized!");
+
         let {name, description, date, startTime, endTime,  location, totalCapacity} = req.body;
         date = new Date(date);
         totalCapacity = Number(totalCapacity);
 
-        
-        const event = await prisma.event.update({
+        event = await prisma.event.update({
             where:{
-                id: req.params.id
+                id: req.user.id
             },
-            data: {
+            data:{
                 name, description, date, startTime, endTime, location, totalCapacity
-            }   
+            }
         })
 
-        res.status(201).json({sucess:true, data:event});
+        res.status(200).json({sucess:true, data:event});
     }
       
 
 
         static addImage = async (req: AuthRequest,  res: Response) => {
 
+            // check if current event belongs to signed in User.
+            let event = await prisma.event.findUnique({
+                where:{
+                    id: req.params.id
+                }
+            })
+
+            if(!event) throw new NotFoundError("No Event with Id Found!")
+            if(event.creatorId != req.user.id) throw new AuthError("Not Authorized!");
+
             const localFilePath = req.file?.path || "";
-            let imagelink = "";
-            if (localFilePath) {
-                var { imageUrl } = await cloudinaryInstance.uploadImage(localFilePath); 
-            }
+        
+            const { imageUrl } = await cloudinaryInstance.uploadImage(localFilePath); 
             
-            if (imageUrl) imagelink = imageUrl;
+            //set the image for the current event
+            event = await prisma.event.update({
+                where:{
+                    id: req.params.id,
+                }, 
+                data:{ imageUrl }
+            })
+
+
+            res.status(200).json({success:true, data:event})
             
         }
 }

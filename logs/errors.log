@@ -821,3 +821,12 @@
 [31m  'Invalid time format. Use the format HH:mm',[39m
 [31m  'totalCapacity must be a number string'[39m
 [31m][39m
+2023-03-20 14:55:48 [31merror[39m: [31m[[39m
+[31m  'firstname must be a string',[39m
+[31m  'firstname must be a string',[39m
+[31m  'email must be a string',[39m
+[31m  'firstname must be a string',[39m
+[31m  'firstname must be a string',[39m
+[31m  'email must be a string',[39m
+[31m  'lastname must be a string'[39m
+[31m][39m

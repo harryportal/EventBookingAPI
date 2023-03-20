@@ -38,6 +38,7 @@ model Event {
   creatorId   String 
   creator     User @relation(fields: [creatorId], references: [id])
   attendees   AttendeeToEvent[]
+  @@index([id, creatorId])  
 }
 
 model Attendee{
