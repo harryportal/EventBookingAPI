@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon src/index.ts",
-    "migrate": "dotenv -e .env.development -- npx prisma migrate dev --name init"
+    "dev": " dotenv -e .env.development nodemon src/index.ts",
+    "migrate": "dotenv -e .env.development prisma migrate dev",
+    "test": "dotenv -e .env.development jest --watchAll"
   },
   "keywords": [],
   "author": "",
@@ -14,8 +15,7 @@
     "@types/bcryptjs": "^2.4.2",
     "@types/cookie-parser": "^1.4.3",
     "@types/cors": "^2.8.13",
-    "@types/express": "^4.17.15",
-    "@types/jest": "^29.2.5",
+    "@types/jest": "^29.5.0",
     "@types/jsonwebtoken": "^9.0.1",
     "@types/morgan": "^1.9.4",
     "@types/node": "^18.11.15",
