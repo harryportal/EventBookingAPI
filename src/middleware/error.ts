@@ -1,13 +1,13 @@
 import { NextFunction, Request, Response } from 'express';
 
-class ApiError extends Error {
+export class ApiError extends Error {
   constructor(message: string, public statusCode: number, public rawErrors?: string[] | unknown) {
     super(message);
     Error.captureStackTrace(this, this.constructor); // captures errors from every part of the application
   }
 }
 
-class ErrorHandler {
+export class ErrorHandler {
   static handle() {
     return (err: ApiError, req: Request, res: Response, next: NextFunction) => {
       const statusCode = err.statusCode || 500;
@@ -45,27 +45,38 @@ class ErrorHandler {
   }
 }
 
-class NotFoundError extends ApiError {
+export class NotFoundError extends ApiError {
   constructor(path: string) {
     super(`Requested Path ${path} is not found`, 404);
   }
 }
 
-class AuthError extends ApiError {
+export class AuthError extends ApiError {
   constructor(message: string) {
     super(message, 401);
   }
 }
 
-class BadRequestError extends ApiError {
+export class NotAuthorizedError extends ApiError {
+  constructor(){
+    super("Not Authorized!", 403)
+  }
+}
+
+export class BadRequestError extends ApiError {
   constructor(public message: string, public errors?: string[]) {
     super(message, 400, errors);
   }
 }
 
-class InternalServerError extends ApiError{
+export class InternalServerError extends ApiError{
   constructor(public errors?: unknown) {
     super("Internal Server Error", 500, errors);
   }
 }
-export { ErrorHandler, NotFoundError, ApiError, AuthError, BadRequestError, InternalServerError };
+
+export class ConflictError extends ApiError{
+  constructor(){
+    super("Email already Exist!", 409)
+  }
+}

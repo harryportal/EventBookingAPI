@@ -1,7 +1,7 @@
 import {Response} from "express";
 import { AuthRequest } from "../interfaces/userAuth";
 import { prisma } from "../utils/db";
-import { AuthError, BadRequestError, NotFoundError } from "../middleware/error";
+import { AuthError, BadRequestError, NotAuthorizedError, NotFoundError } from "../middleware/error";
 import MailService from "../service/mailing";
 import logger from "../utils/winston";
 import cloudinaryInstance from "../service/cloudinary";
@@ -141,7 +141,7 @@ export default class EventController {
         })
 
         if(!event) throw new NotFoundError("No Event with Id Found!")
-        if(event.creatorId != req.user.id) throw new AuthError("Not Authorized!");
+        if(event.creatorId != req.user.id) throw new NotAuthorizedError();
 
         let {name, description, date, startTime, endTime,  location, totalCapacity} = req.body;
         date = new Date(date);
@@ -171,7 +171,7 @@ export default class EventController {
             })
 
             if(!event) throw new NotFoundError("No Event with Id Found!")
-            if(event.creatorId != req.user.id) throw new AuthError("Not Authorized!");
+            if(event.creatorId != req.user.id) throw new NotAuthorizedError();
 
             const localFilePath = req.file?.path || "";
         

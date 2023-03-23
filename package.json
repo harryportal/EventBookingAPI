@@ -6,7 +6,8 @@
   "scripts": {
     "dev": " dotenv -e .env.development nodemon src/index.ts",
     "migrate": "dotenv -e .env.development prisma migrate dev",
-    "test": "dotenv -e .env.development jest --watchAll"
+    "test": "dotenv -e .env.test npx jest --watchAll",
+    "migrate:test":"dotenv -e .env.test prisma migrate dev"
   },
   "keywords": [],
   "author": "",
