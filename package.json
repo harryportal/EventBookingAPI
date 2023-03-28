@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": " dotenv -e .env.development nodemon src/index.ts",
-    "migrate": "dotenv -e .env.development prisma migrate dev",
-    "test": "dotenv -e .env.test npx jest --watchAll",
-    "migrate:test":"dotenv -e .env.test prisma migrate dev"
+    "db:migrate": "dotenv -e .env.development prisma migrate dev",
+    "test": "dotenv -e .env.test jest --watchAll --detectOpenHandles",
+    "test:migrate": "dotenv -e .env.test prisma migrate dev"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +26,7 @@
     "@types/winston": "^2.4.4",
     "@typescript-eslint/eslint-plugin": "^5.50.0",
     "@typescript-eslint/parser": "^5.50.0",
+    "cross-env": "^7.0.3",
     "dotenv-cli": "^6.0.0",
     "express-validator": "^6.14.2",
     "express-validators": "^1.0.4",
@@ -49,7 +50,6 @@
     "cloudinary": "^1.35.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
-    "cross-env": "^7.0.3",
     "dotenv": "^16.0.3",
     "eslint": "^8.33.0",
     "express": "^4.18.2",

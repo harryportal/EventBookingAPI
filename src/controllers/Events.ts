@@ -1,7 +1,7 @@
 import {Response} from "express";
 import { AuthRequest } from "../interfaces/userAuth";
 import { prisma } from "../utils/db";
-import { AuthError, BadRequestError, NotAuthorizedError, NotFoundError } from "../middleware/error";
+import {BadRequestError, ConflictError, NotAuthorizedError, NotFoundError } from "../middleware/error";
 import MailService from "../service/mailing";
 import logger from "../utils/winston";
 import cloudinaryInstance from "../service/cloudinary";
@@ -48,7 +48,7 @@ export default class EventController {
         const event = await prisma.event.findUnique({
             where:{ id: eventId }  });
            
-        if(!event) { throw new BadRequestError("No event with Id!") }
+        if(!event) { throw new NotFoundError("No event with Id!") }
         
         // Check if event is at capacity before adding the new attendee
 
@@ -132,7 +132,6 @@ export default class EventController {
     }
 
     static udpateEvent = async (req:AuthRequest,  res:Response) => {
-
         // check if current event belongs to signed in User.
         let event = await prisma.event.findUnique({
             where:{
@@ -140,8 +139,8 @@ export default class EventController {
             }
         })
 
-        if(!event) throw new NotFoundError("No Event with Id Found!")
-        if(event.creatorId != req.user.id) throw new NotAuthorizedError();
+        if(!event) {throw new ConflictError()}
+        if(event.creatorId != req.user.id) {throw new NotAuthorizedError();}
 
         let {name, description, date, startTime, endTime,  location, totalCapacity} = req.body;
         date = new Date(date);
@@ -149,10 +148,10 @@ export default class EventController {
 
         event = await prisma.event.update({
             where:{
-                id: req.user.id
+                id: req.params.id
             },
             data:{
-                name, description, date, startTime, endTime, location, totalCapacity
+                name, description, date, startTime, endTime, totalCapacity
             }
         })
 

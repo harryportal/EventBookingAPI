@@ -3,7 +3,6 @@ import MailInterface from '../interfaces/mail';
 import logger from '../utils/winston';
 
 
-
 export default class MailService {
     private transporter: nodemailer.Transporter;
     constructor(){

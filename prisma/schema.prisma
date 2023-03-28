@@ -22,6 +22,7 @@ model User {
   attendee  Attendee?  // one to one relationship with the attendee model
 }
 
+
 // Event model
 model Event {
   id          String     @id @default(uuid())
@@ -35,7 +36,7 @@ model Event {
   capacity    Int   @default(0)
   location    String
   creatorId   String 
-  creator     User @relation(fields: [creatorId], references: [id])
+  creator     User @relation(fields: [creatorId], references: [id], onDelete: Cascade)
   attendees   AttendeeToEvent[]
   @@index([id, creatorId])  
 }
@@ -43,7 +44,7 @@ model Event {
 model Attendee{
   id  String @id @default(uuid())
   userId String @unique
-  user User @relation(fields: [userId], references: [id])
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
   events    AttendeeToEvent[]
 }
 
@@ -53,8 +54,8 @@ model AttendeeToEvent {
   id            String          @id @default(uuid())
   attendeeId    String
   eventId       String
-  attendee      Attendee        @relation(fields: [attendeeId], references: [id])
-  event         Event           @relation(fields: [eventId], references: [id])
+  attendee      Attendee        @relation(fields: [attendeeId], references: [id], onDelete: Cascade)
+  event         Event           @relation(fields: [eventId], references: [id], onDelete: Cascade)
 }
 
 
