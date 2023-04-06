@@ -1,4 +1,4 @@
-import { createJWT } from "../../utils/auth";
+import { createJWT } from "../../utils/jwt";
 import jwt from "jsonwebtoken";
 import { randomUUID } from "crypto";
 

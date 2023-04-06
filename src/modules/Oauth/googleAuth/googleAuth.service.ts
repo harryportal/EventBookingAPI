@@ -1,7 +1,7 @@
 import axios from "axios";
 import qs from "qs";
 import { GoogleUserResult, GoogleOauthToken } from "../interfaces/googleAuth";
-import logger from "../utils/winston";
+import logger from "../modules/logging/winston";
 import * as dotenv from "dotenv";
 
 dotenv.config({ path: `.env.${process.env.NODE_ENV}` });

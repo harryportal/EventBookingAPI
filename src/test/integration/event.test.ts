@@ -2,7 +2,7 @@ import request from "supertest";
 import app from "../../app";
 import { prisma } from "../../utils/db";
 import { User , Event } from "@prisma/client";
-import { createJWT } from "../../utils/auth";
+import { createJWT } from "../../utils/jwt";
 import { AuthError } from "../../middleware/error";
 
 

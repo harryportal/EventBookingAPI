@@ -1,6 +1,6 @@
 import app from './app';
 import * as dotenv from 'dotenv';
-import logger from './utils/winston';
+import logger from './modules/logging/winston';
 import {Prisma }from './utils/db';
 import { Application } from 'express';
 
