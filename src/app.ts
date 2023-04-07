@@ -3,8 +3,8 @@ import morgan from 'morgan';
 import cors from 'cors';
 import { ErrorHandler } from './middleware/error';
 import { Application } from 'express';
-import eventRouter from './routers/Events';
-import authRouter from './routers/Auth';
+import eventRouter from "./modules/event/event.router";
+import authRouter from "./modules/auth/auth.router";
 import bodyParser from 'body-parser';
 
 

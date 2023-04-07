@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer';
-import MailInterface from '../interfaces/mail';
-import logger from '../utils/winston';
+import MailInterface from './mail.interface';
+import logger from '../../utils/logging/winston';
 
 
 export default class MailService {

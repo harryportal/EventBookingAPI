@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client"
-import logger from './winston';
+import logger from "../logging/winston";
 
 // creates and return a reusable prisma client
 
@@ -18,7 +18,7 @@ class Prisma{
     }
 };
 
-const prisma = new Prisma().prisma;
+const prisma = new Prisma().prisma;   // todo: export just the class and initialise it in the repository constructor
 export {prisma, Prisma};
 
 

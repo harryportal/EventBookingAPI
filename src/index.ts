@@ -1,7 +1,7 @@
 import app from './app';
 import * as dotenv from 'dotenv';
-import logger from './utils/winston';
-import {Prisma }from './utils/db';
+import logger from './utils/logging/winston';
+import { Prisma } from './utils/db/prisma';
 import { Application } from 'express';
 
 dotenv.config({ path: `.env.${process.env.NODE_ENV}` });

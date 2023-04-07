@@ -1,4 +1,4 @@
-import { IsNumber, IsString, IsDateString, Matches, IsOptional, IsNumberString } from 'class-validator';
+import {IsString, IsDateString, Matches, IsOptional, IsNumberString } from 'class-validator';
 
 
 export class AddEvent {

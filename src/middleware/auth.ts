@@ -1,5 +1,5 @@
 import { Response, NextFunction } from 'express';
-import { AuthRequest } from '../interfaces/userAuth';
+import { AuthRequest } from '../modules/auth/auth.interface';
 import jwt, {Secret} from 'jsonwebtoken';
 import { AuthError } from './error';
 

@@ -1,7 +1,7 @@
 import { v2 as cloudinary } from "cloudinary";
 import { unlinkSync } from "fs";
-import CloudinaryResponse from "../interfaces/cloudinary";
-import { BadRequestError, InternalServerError } from "../middleware/error";
+import CloudinaryResponse from "./cloudinary.interface";
+import { BadRequestError, InternalServerError } from "../../middleware/error";
 import * as dotenv from "dotenv"
 dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
 
@@ -31,7 +31,7 @@ class Cloudinary{
                 throw new BadRequestError("Couldn't upload image, Try again later.")
             }
             unlinkSync(imagetoUpload);
-            return {imageUrl: url};
+           return {imageUrl: url};
 
         }catch(error){
             unlinkSync(imagetoUpload);

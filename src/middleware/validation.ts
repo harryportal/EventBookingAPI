@@ -1,8 +1,8 @@
 import { Request, Response, NextFunction } from 'express';
 import { validate } from 'class-validator';
 import { BadRequestError } from '../middleware/error';
-import { ClassConstructor, plainToClass, plainToInstance } from 'class-transformer';
-import logger from '../utils/winston';
+import { ClassConstructor, plainToClass} from 'class-transformer';
+import logger from '../utils/logging/winston';
 
 // a middleware to validate the user input
 export default class RequestValidator {
