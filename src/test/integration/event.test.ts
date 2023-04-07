@@ -1,6 +1,6 @@
 import request from "supertest";
 import app from "../../app";
-import { prisma } from "../../utils/db";
+import { prisma } from "../../utils/db/prisma";
 import { User , Event } from "@prisma/client";
 import { createJWT } from "../../utils/jwtAuth/jwt";
 import { AuthError } from "../../middleware/error";
