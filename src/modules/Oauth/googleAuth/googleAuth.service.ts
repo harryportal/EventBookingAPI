@@ -1,13 +1,13 @@
 import axios from "axios";
 import qs from "qs";
-import { GoogleUserResult, GoogleOauthToken } from "../interfaces/googleAuth";
-import logger from "../modules/logging/winston";
+import { GoogleOauthToken, GoogleUserResult } from "./googleAuth.interface";
+import logger from "../../../utils/logging/winston";
 import * as dotenv from "dotenv";
 
 dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
 
 
-class GoogleService{
+export default class GoogleService{
     public client_id: string
     public redirect_url: string
     public client_secret: string
@@ -85,8 +85,4 @@ class GoogleService{
           throw Error(err);
         }
       }
-
-}
-
-const googleService = new GoogleService();
-export default googleService;
+    }

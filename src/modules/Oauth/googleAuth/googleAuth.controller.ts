@@ -1,12 +1,13 @@
 import { Request, Response } from "express";
-import googleService from "../service/googleOauth";
-import { createJWT } from "../utils/auth";
-import {prisma } from "../utils/db";
-
+import { createJWT } from "../../../utils/jwtAuth/jwt";
+import { prisma } from "../../../utils/db/prisma";
+import GoogleService from "./googleAuth.service";
 
 export default class GoogleOauthController {
+    private static googleService = new GoogleService();
+
     static getAuthorizationCode = async (req: Request, res: Response)=>{
-      const authUrl = googleService.getAuthCode();
+      const authUrl = this.googleService.getAuthCode();
 
       res.status(200).json({
         redirect_link: authUrl, success: true
@@ -18,7 +19,7 @@ export default class GoogleOauthController {
       
         try {
           const code = req.query.code as string;
-          const pathUrl = (req.query.state as string) || "/";
+          //const pathUrl = (req.query.state as string) || "/";
       
           if (!code) {
             return res.status(401).json({
@@ -27,9 +28,9 @@ export default class GoogleOauthController {
             });
           }
       
-          const { id_token, access_token } = await googleService.getToken({code});
+          const { id_token, access_token } = await this.googleService.getToken({code});
       
-          const { verified_email, email, given_name, family_name, phoneNumber}  = await googleService.getUser({
+          const { verified_email, email, given_name, family_name, phoneNumber}  = await this.googleService.getUser({
             id_token,
             access_token,
           });
