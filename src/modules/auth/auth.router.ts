@@ -1,4 +1,4 @@
-import RequestValidator from '../../middleware/validation';
+import RequestValidator from '../../common/validation';
 import { Router } from 'express';
 import AuthController from './auth.contoller';
 import { SignIn, SignUp } from './auth.validation';

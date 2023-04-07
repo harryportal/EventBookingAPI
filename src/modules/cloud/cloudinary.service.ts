@@ -1,7 +1,7 @@
 import { v2 as cloudinary } from "cloudinary";
 import { unlinkSync } from "fs";
 import CloudinaryResponse from "./cloudinary.interface";
-import { BadRequestError, InternalServerError } from "../../middleware/error";
+import { BadRequestError, InternalServerError } from "../../common/error";
 import * as dotenv from "dotenv"
 dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
 

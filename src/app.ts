@@ -1,7 +1,7 @@
 import express from "express";
 import morgan from 'morgan';
 import cors from 'cors';
-import { ErrorHandler } from './middleware/error';
+import { ErrorHandler } from './common/error';
 import { Application } from 'express';
 import eventRouter from "./modules/event/event.router";
 import authRouter from "./modules/auth/auth.router";

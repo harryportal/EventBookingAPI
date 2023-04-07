@@ -3,7 +3,7 @@ import app from "../../app";
 import { prisma } from "../../utils/db/prisma";
 import { User , Event } from "@prisma/client";
 import { createJWT } from "../../utils/jwtAuth/jwt";
-import { AuthError } from "../../middleware/error";
+import { AuthError } from "../../common/error";
 
 
 const userPayload: Omit<User, "id"> = {  email: "test@email.com", firstname:"firstname", lastname:"lastname", contact:"+2348000000000", password:"password" }

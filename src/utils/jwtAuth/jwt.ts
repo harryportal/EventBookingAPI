@@ -1,6 +1,6 @@
 import * as bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import { AuthError, InternalServerError  } from '../../middleware/error';
+import { AuthError, InternalServerError  } from '../../common/error';
 import { userPayload } from '../../modules/auth/auth.interface';
 
 const hashPassword = (password: string) => {
