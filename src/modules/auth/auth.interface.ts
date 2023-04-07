@@ -12,3 +12,8 @@ export interface User {
   password: string,
   contact: string
 }
+
+
+interface IUser extends Partial<User> {
+  firstname?: string
+}

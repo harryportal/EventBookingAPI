@@ -31,7 +31,7 @@ class Cloudinary{
                 throw new BadRequestError("Couldn't upload image, Try again later.")
             }
             unlinkSync(imagetoUpload);
-            return {imageUrl: url};
+           return {imageUrl: url};
 
         }catch(error){
             unlinkSync(imagetoUpload);

@@ -1,6 +1,6 @@
 import { prisma } from '../../utils/db';
 import { Request, Response } from 'express';
-import { comparePassword, hashPassword } from '../../utils/jwt';
+import { comparePassword, hashPassword } from '../../utils/jwtAuth/jwt';
 import { AuthError, ConflictError } from '../../middleware/error';
 
 
