@@ -1,10 +1,10 @@
 import {Response} from "express";
-import { AuthRequest } from "../interfaces/userAuth";
-import { prisma } from "../utils/db";
-import { AuthError, BadRequestError, NotAuthorizedError, NotFoundError } from "../middleware/error";
-import MailService from "../service/mailing";
-import logger from "../modules/logging/winston";
-import cloudinaryInstance from "../service/cloudinary";
+import { AuthRequest } from "./event.interface";
+import { prisma } from "../../../prisma/db";
+import { AuthError,  BadRequestError, NotAuthorizedError, NotFoundError } from "../../middleware/error";
+import MailService from "../mailing/mail.service";
+import logger from "../../utils/logging/winston";
+import cloudinaryInstance from "../cloud/cloudinary.service";
 
 
 

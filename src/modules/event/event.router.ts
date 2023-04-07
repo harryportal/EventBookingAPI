@@ -1,9 +1,9 @@
 import Router from "express"
-import EventController from "../controllers/Events";
-import { protect } from "../middleware/auth";
-import RequestValidator from "../middleware/validation";
-import { AddEvent } from "../serializers/events";
-import { multerUpload } from "../utils/multer";
+import EventController from "./event.contoller";
+import { protect } from "../../middleware/auth";
+import RequestValidator from "../../middleware/validation";
+import { AddEvent } from "./event.serializer";
+import { multerUpload } from "../../utils/fileStorage/multer";
 
 const eventRouter = Router();
 
