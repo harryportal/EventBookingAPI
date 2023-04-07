@@ -13,7 +13,7 @@ export interface User {
   contact: string
 }
 
-
-interface IUser extends Partial<User> {
-  firstname?: string
+export interface userPayload{
+  id: string,
+  email: string
 }
