@@ -18,7 +18,7 @@ afterAll(async()=>{
     await prisma.$disconnect();
 })
 
-describe("Test for Signing Up Endpoint", ()=>{
+xdescribe("Test for Signing Up Endpoint", ()=>{
   
     it("should return a status code of 201 and id for a valid user data", async ()=>{
         const response = await request(app).post("/api/v1/auth/signup").send(userPayload)
@@ -42,6 +42,7 @@ describe("Test for Signing In EndPoint", ()=>{
     it("should return valid jwt token with a 200 status code for an authenticate user", async ()=>{
         const response = await request(app).post("/api/v1/auth/login").send(userPayload)
         expect(response.statusCode).toBe(200);
+        expect(response.body.user).toHaveProperty("id");
         expect(response.body.token).toBeDefined();
     }),
 

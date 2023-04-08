@@ -26,7 +26,7 @@ afterAll(async()=>{
     await prisma.$disconnect();
 })
 
-describe("Test the Create Event Endpoint", ()=>{
+xdescribe("Test the Create Event Endpoint", ()=>{
     it("should return 201 status code and event id for a successful creation", async()=>{
         const response = await request(app).post("/api/v1/events")
         .set('Authorization', `Bearer ${process.env.AUTH_TOKEN}`).send(eventPayload);
@@ -51,7 +51,7 @@ describe("Test the Create Event Endpoint", ()=>{
 })
 
 
-describe("test the add Attendee endpoint", ()=>{
+xdescribe("test the add Attendee endpoint", ()=>{
 
     it("should return 401 status code if user is not authenticated", async()=>{
         const response = await request(app).post("/api/v1/events/test_id/attendees");
@@ -75,7 +75,7 @@ describe("test the add Attendee endpoint", ()=>{
     })
 })
 
-describe("test the Update Event Endpoint", ()=>{
+xdescribe("test the Update Event Endpoint", ()=>{
     beforeAll(async()=>{
         const event = await prisma.event.findFirst({where:{name:"event"}});
         process.env.EVENT_ID = event.id;

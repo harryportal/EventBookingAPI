@@ -2,7 +2,7 @@ import {Response} from "express";
 import { AuthRequest } from "./event.interface";
 import { prisma } from "../../utils/db/prisma";
 import { BadRequestError, NotAuthorizedError, NotFoundError } from "../../common/error";
-import MailService from "../mailing/mail.service";
+import MailService from "../mail/mail.service";
 import logger from "../../utils/logging/winston";
 import cloudinaryInstance from "../cloud/cloudinary.service";
 
