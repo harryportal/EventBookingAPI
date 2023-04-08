@@ -1,4 +1,4 @@
-import Router from "express"
+import { Router } from "express";
 import EventController from "./event.contoller";
 import { protect } from "../../common/auth";
 import RequestValidator from "../../common/validation";

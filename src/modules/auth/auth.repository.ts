@@ -1,4 +1,3 @@
-import { PrismaClient } from "@prisma/client";
 import { AuthError, ConflictError } from "../../common/error";
 import { prisma } from "../../utils/db/prisma";
 import { comparePassword, createJWT, hashPassword } from "../../utils/jwtAuth/jwt";
@@ -38,7 +37,7 @@ export default class AuthRepository{
       
         if(!user) throw new AuthError("Authentication Failed!");
     
-        const isValid = await comparePassword(email, password);
+        const isValid = await comparePassword(password, user.password);
     
         if (!isValid) throw new AuthError("Authentication Failed!");
     
