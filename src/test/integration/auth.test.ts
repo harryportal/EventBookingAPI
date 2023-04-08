@@ -18,7 +18,7 @@ afterAll(async()=>{
     await prisma.$disconnect();
 })
 
-xdescribe("Test for Signing Up Endpoint", ()=>{
+describe("Test for Signing Up Endpoint", ()=>{
   
     it("should return a status code of 201 and id for a valid user data", async ()=>{
         const response = await request(app).post("/api/v1/auth/signup").send(userPayload)
