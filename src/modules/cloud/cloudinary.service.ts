@@ -6,7 +6,7 @@ import * as dotenv from "dotenv"
 dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
 
 
-class Cloudinary{
+export default class Cloudinary{
     constructor(){
 
         cloudinary.config({
@@ -16,7 +16,7 @@ class Cloudinary{
         })
     }
 
-    uploadImage = async (imagetoUpload: string):Promise<CloudinaryResponse> =>{
+    public uploadImage = async (imagetoUpload: string):Promise<CloudinaryResponse> =>{
         try{
             console.log(imagetoUpload)
             const cloudinaryData = await cloudinary.uploader.upload(
@@ -39,7 +39,3 @@ class Cloudinary{
         }
     }   
 }
-
-
-const cloudinaryInstance =  new Cloudinary();
-export default cloudinaryInstance
