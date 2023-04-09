@@ -2,7 +2,9 @@
 Backend for an Event Booking Application build with Node and TypeScript:rocket:
 
 ***
-To run on a development server: 
+This project uses yarn package manager, To install yarn use ```npm i -g yarn```
+***
+To start the project, clone the repository and install dependecies: 
 
 ```sh
 > git clone https://github.com/harryportal/EventBookingAPI
@@ -13,7 +15,7 @@ To run on a development server:
 ***
 Create a .env.test and .env.development and populate using the .env.sample file.
 ***
-If you have docker installed, you can start the postgres database with ```npm run start:db```
+If you have docker installed, you can start the postgres database with ```yarn run start:db```
 
 ```sh
 # run migrations on your database
@@ -23,7 +25,7 @@ If you have docker installed, you can start the postgres database with ```npm ru
 ```
 
 To run the Unit and Integration test:
-- Create a test database or your use this command if you have docker installed to start the test db ```npm run test:db```
+- Create a test database or your use this command if you have docker installed to start the test db ```yarn run test:db```
 ```sh
 # run migration
 > yarn run test:migrate
@@ -39,7 +41,7 @@ ROADMAP:
 - [x] Implement Mailing with nodemailer and google app
 - [x] Set up Cloudinary for storing event images 
 - [ ] Add Documentation with Postman
-- [ ] Write Unit and Integration Test
+- [x] Write Unit and Integration Test
 - [ ] Deploy to Heroku:rocket: 
 
 
