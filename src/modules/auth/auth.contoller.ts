@@ -13,7 +13,7 @@ export default class AuthController {
   };
 
   static signIn = async (req: Request, res: Response) => {
-    const token = await this.authRepository.signIn(req.body);
+    const token = await this.authRepository.signUser(req.body);
     res.json({ token, success:true });
   };
 }

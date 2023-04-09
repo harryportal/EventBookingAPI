@@ -42,7 +42,6 @@ describe("Test for Signing In EndPoint", ()=>{
     it("should return valid jwt token with a 200 status code for an authenticate user", async ()=>{
         const response = await request(app).post("/api/v1/auth/login").send(userPayload)
         expect(response.statusCode).toBe(200);
-        expect(response.body.user).toHaveProperty("id");
         expect(response.body.token).toBeDefined();
     }),
 
