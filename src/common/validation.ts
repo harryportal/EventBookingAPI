@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { validate } from 'class-validator';
-import { BadRequestError } from '../middleware/error';
+import { BadRequestError } from './error';
 import { ClassConstructor, plainToClass} from 'class-transformer';
 import logger from '../utils/logging/winston';
 

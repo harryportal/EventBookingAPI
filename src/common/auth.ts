@@ -1,6 +1,6 @@
 import { Response, NextFunction } from 'express';
 import { AuthRequest } from '../modules/auth/auth.interface';
-import jwt, {Secret} from 'jsonwebtoken';
+import { verifyJWT } from '../utils/jwtAuth/jwt';
 import { AuthError } from './error';
 
 export const protect = (req: AuthRequest, res: Response, next: NextFunction) => {
@@ -14,13 +14,8 @@ export const protect = (req: AuthRequest, res: Response, next: NextFunction) => 
     throw new AuthError('Bearer has no token');
   }
 
-  const secret = process.env.JWT_SECRET as Secret;
+  const payload = verifyJWT(token);
+  req.user = payload;
+  next();
 
-  try {
-    const payload = jwt.verify(token, secret);
-    req.user = payload;
-    next();
-  } catch (e) {
-    throw new AuthError('Invalid Token Provided');
-  }
-};
+}

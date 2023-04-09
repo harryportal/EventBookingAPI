@@ -25,6 +25,9 @@ export class AddEvent {
   @IsString()
   location: string
 
+  @IsString()
+  timezone:string;
+
   @IsNumberString()
   totalCapacity: string
   
