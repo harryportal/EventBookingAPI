@@ -4,11 +4,11 @@ import { prisma } from "../../utils/db/prisma";
 import { User , Event } from "@prisma/client";
 import { createJWT } from "../../utils/jwtAuth/jwt";
 
-
+3
 
 const userPayload: Omit<User, "id"> = {  email: "test@email.com", firstname:"firstname", lastname:"lastname", contact:"+2348000000000", password:"password" }
 
-const eventPayload = { name: "event", description: "new event", date: new Date(), startTime:"11:45", endTime: "16:50", location: "zoom", totalCapacity: "10"}; 
+const eventPayload = { name: "event", description: "new event", date: new Date(), startTime:"11:45", endTime: "16:50", location: "zoom", totalCapacity: "10", timezone: "WAT +2:00"}; 
 const invalidEventPayload = { name: "event", description: "new event", date: new Date(), startTime:"11:45" }
 
 beforeAll(async()=>{
