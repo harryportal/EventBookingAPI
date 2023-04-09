@@ -32,6 +32,7 @@ model Event {
   date        DateTime   
   startTime   String
   endTime     String
+  timezone    String
   totalCapacity Int
   capacity    Int   @default(0)
   location    String

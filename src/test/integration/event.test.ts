@@ -27,7 +27,7 @@ afterAll(async()=>{
 })
 
 describe("Test the Create Event Endpoint", ()=>{
-    xit("should return 201 status code and event id for a successful creation", async()=>{
+    it("should return 201 status code and event id for a successful creation", async()=>{
         const response = await request(app).post("/api/v1/events")
         .set('Authorization', `Bearer ${process.env.AUTH_TOKEN}`).send(eventPayload);
 

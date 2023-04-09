@@ -1,122 +1,49 @@
 import {Response} from "express";
-import { AuthRequest } from "./event.interface";
+import { AuthRequest } from "../auth/auth.interface";
 import { prisma } from "../../utils/db/prisma";
-import { BadRequestError, NotAuthorizedError, NotFoundError } from "../../common/error";
+import { BadRequestError } from "../../common/error";
 import MailService from "../mail/mail.service";
 import logger from "../../utils/logging/winston";
-import cloudinaryInstance from "../cloud/cloudinary.service";
-
-
+import EventRepository from "./event.repository";
 
 
 export default class EventController {
-
-
+    private static eventRepository = new EventRepository();
+    private static mailServie = new MailService();
+    
     static createEvent = async (req:AuthRequest,  res:Response) => {
-        let {name, description, date, startTime, endTime,  location, totalCapacity} = req.body;
-        date = new Date(date);
-        totalCapacity = Number(totalCapacity);
-
+        const eventPayload = req.body;
+        eventPayload.date = new Date(eventPayload.date);
+        eventPayload.totalCapacity = Number(eventPayload.totalCapacity)
         
-        const event = await prisma.event.create({
-            data: {
-                name, description, date, startTime, endTime, location, totalCapacity,
-                creator: {
-                    connect: {id: req.user.id}
-                }
-            }   
-        })
-
-        // get current user email
-        const { email } = await prisma.user.findUnique({
-            where:{id: req.user.id},  select:{email:true}
-        })
-
-        // Work on templates later
-        const mailing =  new MailService();
-        try{
-        mailing.sendMail(req.headers['X-Request-Id'], {to:email, subject: "Event Created", html:"Email Sent"})
-        res.status(201).json({sucess:true, data:event});}
-        catch(err){
-            logger.error(err) }
-        };
-
-
-    static addAttendee = async (req:AuthRequest,  res:Response) => {
-        const eventId = req.params.id;
-
-        // check if the event exist
-        const event = await prisma.event.findUnique({
-            where:{ id: eventId }  });
-           
-        if(!event) { throw new BadRequestError("No event with Id!") }
-        
-        // Check if event is at capacity before adding the new attendee
-
-        if(event.capacity == event.totalCapacity){ throw new BadRequestError("Event at Capacity") }
-
-        // check if user has registered for an event before and create attendee if false
-        let attendee = await prisma.attendee.findUnique({
-            where: {userId: req.user.id}
-        })
-
-        if(!attendee){
-            attendee = await prisma.attendee.create({
-                data:{
-                    user: {connect: {id: req.user.id}}
-                }
-            })
-        }
-
-        // add attendee to event and update the total number of attendees for the event
-        const addAttendee = await prisma.$transaction([
-
-            prisma.attendeeToEvent.create({
-                data:{
-                    attendee:{connect:{id: attendee.id}},
-                    event:{connect:{id:event.id}}
-                }
-            }), 
-
-            prisma.event.update({
-            where: { id: eventId },
-            data: { capacity: { increment: 1 } },
-            include:{
-                attendees: true
-            }
-          })
-
-        ]);
-
-        
-        const [newAttendee, _] = addAttendee;
-        res.status(201).json({success:true, data: newAttendee});
+        const event = await this.eventRepository.addEvent(eventPayload, req.user.id)
+        this.sendMail(req.user.email, req);  // update: make this a background task
+        res.status(201).json({success:true, event})
     }
 
+    private static sendMail = (email:string, req:AuthRequest)=>{
+        try{
+            this.mailServie.sendMail(req.headers['X-Request-Id'], {to:email, subject: "Event Created", html:"Email Sent"})
+        }catch(err){
+                logger.error(err) 
+        }
+    };
+    
+    static addAttendee = async (req:AuthRequest,  res:Response) => {
+        const eventId = req.params.id;
+        const attendee = this.eventRepository.addAttendee(eventId, req.user.id);
 
-
-
+        res.status(201).json({success:true, data: attendee});
+    }
 
     static getAttendees =async (req:AuthRequest,  res:Response) => {
-
-        const eventAttendees = await prisma.event.findFirst({
-            where:{ 
-                id: req.params.id,
-                creatorId: req.user.id
-            },include:{
-                attendees: {select:{ attendee : {select: {user: {
-                    select:{firstname: true, lastname: true, email: true, contact: true}
-                }}} }}
-            }
-        });
-
-        if(!eventAttendees) { throw new BadRequestError("No event with Id!") };
-
-        res.status(200).json({success:true, data:eventAttendees})
+        const evenId = req.params.id;
+        const userId = req.user.id;
+        const attendees = this.eventRepository.getAttendees(evenId, userId)
+        res.status(200).json({success:true, data:attendees})
     }
 
     static getEvent =async (req:AuthRequest, res:Response) => {
-
         const event = await prisma.event.findFirst({
             where:{ 
                 id: req.params.id,
@@ -128,68 +55,26 @@ export default class EventController {
 
         if(!event) { throw new BadRequestError("No event with Id!") };
         res.status(200).json({success:true, data: event})
-
-        
     }
 
     static udpateEvent = async (req:AuthRequest,  res:Response) => {
+        const eventPayload = req.body;
+        const eventId = req.params.id;
+        
+        eventPayload.date = new Date(eventPayload.date);
+        eventPayload.totalCapacity = Number(eventPayload.totalCapacity);
 
-        // check if current event belongs to signed in User.
-        let event = await prisma.event.findUnique({
-            where:{
-                id: req.params.id
-            }
-        })
-
-        if(!event) throw new NotFoundError("No Event with Id Found!")
-        if(event.creatorId != req.user.id) throw new NotAuthorizedError();
-
-        let {name, description, date, startTime, endTime,  location, totalCapacity} = req.body;
-        date = new Date(date);
-        totalCapacity = Number(totalCapacity);
-
-        event = await prisma.event.update({
-            where:{
-                id: req.user.id
-            },
-            data:{
-                name, description, date, startTime, endTime, location, totalCapacity
-            }
-        })
+        const event = await this.eventRepository.updateEvent(eventId, req.user.id, eventPayload)
 
         res.status(200).json({sucess:true, data:event});
     }
       
-
-
-        static addImage = async (req: AuthRequest,  res: Response) => {
-
-            // check if current event belongs to signed in User.
-            let event = await prisma.event.findUnique({
-                where:{
-                    id: req.params.id
-                }
-            })
-
-            if(!event) throw new NotFoundError("No Event with Id Found!")
-            if(event.creatorId != req.user.id) throw new NotAuthorizedError();
-
-            const localFilePath = req.file?.path || "";
-        
-            const { imageUrl } = await cloudinaryInstance.uploadImage(localFilePath); 
-            
-            //set the image for the current event
-            event = await prisma.event.update({
-                where:{
-                    id: req.params.id,
-                }, 
-                data:{ imageUrl }
-            })
-
-
-            res.status(200).json({success:true, data:event})
-            
-        }
+    static addImage = async (req: AuthRequest,  res: Response) => {
+        const eventId = req.params.id;
+        const filePath = req.file?.path || "";
+        const event = await this.eventRepository.addImage(eventId, req.user.id, filePath)
+        res.status(200).json({success:true, data:event})
+    }
 }
 
 
