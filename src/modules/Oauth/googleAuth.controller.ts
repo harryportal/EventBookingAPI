@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { createJWT } from "../../../utils/jwtAuth/jwt";
-import { prisma } from "../../../utils/db/prisma";
+import { createJWT } from "../../utils/jwtAuth/jwt";
+import { prisma } from "../../utils/db/prisma";
 import GoogleService from "./googleAuth.service";
 
 export default class GoogleOauthController {
