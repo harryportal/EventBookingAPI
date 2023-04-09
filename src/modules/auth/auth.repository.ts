@@ -4,16 +4,20 @@ import { comparePassword, createJWT, hashPassword } from "../../utils/jwtAuth/jw
 import { User } from "./auth.interface";
 
 export default class AuthRepository{
+    private user ;
+    constructor(){
+        this.user = prisma.user;
+    }
     public async addUser(userData: User){
         let { firstname, lastname, email, password, contact } = userData;
 
-        let user = await prisma.user.findUnique({  // check if user with email already exist
+        let user = await this.user.findUnique({  // check if user with email already exist
           where: { email },
         });
     
         if (user) throw new ConflictError();
     
-        user = await prisma.user.create({
+        user = await this.user.create({
           data: {
             firstname, 
             lastname,
@@ -22,17 +26,17 @@ export default class AuthRepository{
             password: await hashPassword(password),
           }
         });
-        console.log("This is the user created", user)
-        const User = { firstname, lastname, email, id: user.id, contact };
-        const token = createJWT(user);
-        return {User, token}
+        console.log("This is the user created", user) 
+        // todo:look for a better way to send the user information without having to create a new object.
+        user = { firstname, lastname, email, id: user.id, contact }; 
+        return user;
     }
 
-    public async signIn(userData: Pick<User, "email" | "password">) {
+    public async signUser(userData: Pick<User, "email" | "password">) {
         const {email, password} = userData;
 
-        const user = await prisma.user.findUnique({  // check if user exist
-            where: { email: userData.email },
+        const user = await this.user.findUnique({  // check if user exist
+            where: { email },
           });
       
         if(!user) throw new AuthError("Authentication Failed!");
@@ -40,9 +44,7 @@ export default class AuthRepository{
         const isValid = await comparePassword(password, user.password);
     
         if (!isValid) throw new AuthError("Authentication Failed!");
-    
-        const token = createJWT(user);
-
-        return token;
+        return user;
     }
 }
+

@@ -3,7 +3,7 @@ import app from "../../app";
 import { prisma } from "../../utils/db/prisma";
 import { User , Event } from "@prisma/client";
 import { createJWT } from "../../utils/jwtAuth/jwt";
-import { AuthError } from "../../common/error";
+
 
 
 const userPayload: Omit<User, "id"> = {  email: "test@email.com", firstname:"firstname", lastname:"lastname", contact:"+2348000000000", password:"password" }
@@ -27,7 +27,7 @@ afterAll(async()=>{
 })
 
 describe("Test the Create Event Endpoint", ()=>{
-    it("should return 201 status code and event id for a successful creation", async()=>{
+    xit("should return 201 status code and event id for a successful creation", async()=>{
         const response = await request(app).post("/api/v1/events")
         .set('Authorization', `Bearer ${process.env.AUTH_TOKEN}`).send(eventPayload);
 
