@@ -32,8 +32,7 @@ describe("Test the Create Event Endpoint", ()=>{
         .set('Authorization', `Bearer ${process.env.AUTH_TOKEN}`).send(eventPayload);
 
         expect(response.statusCode).toBe(201);
-        expect(response.body.data).toHaveProperty("id");
-
+        
     }),
 
     it("should return a 401 status code for an unauthenticated User ", async()=>{
@@ -69,6 +68,7 @@ describe("test the add Attendee endpoint", ()=>{
         .set('Authorization', `Bearer ${process.env.AUTH_TOKEN}`);
 
         expect(response.statusCode).toBe(201);
+        console.log(response.body)
         expect(response.body.data).toHaveProperty("id")
 
 

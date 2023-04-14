@@ -63,7 +63,7 @@ export default class EventRepository{
                 data:{
                     attendee:{connect:{id: attendee.id}},
                     event:{connect:{id:event.id}}
-                }
+                }, select:{id:true}
             }), 
 
             prisma.event.update({
