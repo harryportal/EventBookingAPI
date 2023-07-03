@@ -1,5 +1,5 @@
 name: Run Builds and Test Changes
-run-name: ${{github.actor}} just pushed to the ${{gitbub.branch}}
+run-name: ${{github.actor}} just pushed to the main branch
 on: push
 
 jobs:
