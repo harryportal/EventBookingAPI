@@ -2,6 +2,9 @@ name: Run Builds and Test Changes
 run-name: ${{github.actor}} just pushed to the main branch
 on: push
 
+env:
+  DATABASE_URL: ${{secrets.DATABASE_URL}}
+
 jobs:
   Build-and-Test:
     name: Build and Test
