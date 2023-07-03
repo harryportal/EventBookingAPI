@@ -11,5 +11,5 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: '14'
-    - run: yarn add -g bats
+    - run: yarn add global bats
     - run: bats -v
