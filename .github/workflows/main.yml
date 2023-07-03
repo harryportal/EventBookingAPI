@@ -35,7 +35,7 @@ jobs:
         run: yarn install
       
       - name: Migrate to the Test DB
-        run: yarn prisma migrate
+        run: yarn prisma migrate dev
         
         
           
