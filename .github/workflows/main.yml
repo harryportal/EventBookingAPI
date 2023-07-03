@@ -1,0 +1,15 @@
+name: Build and Test Code Changes
+run-name: ${{github.actor}} is learning github-actions
+on: push
+
+jobs:
+  check-bats-version:
+    name: Check the Bats Version
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: '14'
+    - run: yarn add -g bats
+    - run: bats -v
