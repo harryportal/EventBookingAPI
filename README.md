@@ -1,5 +1,5 @@
 # EventBookingAPI
-Backend for an Event Booking Application build with Node and TypeScript:rocket:
+Backend for an Event Booking Application build with Node and TypeScript :rocket:
 ***
 ![](https://github.com/harryportal/EventBookingAPI/actions/workflows/main.yml/badge.svg)
 ***
